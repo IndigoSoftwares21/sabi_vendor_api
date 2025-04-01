@@ -1,5 +1,5 @@
 CREATE TABLE
-    otp (
+    email_otp (
         id SERIAL PRIMARY KEY,
         email VARCHAR(255) NOT NULL,
         otp_code VARCHAR(255) NOT NULL,

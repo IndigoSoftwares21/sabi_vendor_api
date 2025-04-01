@@ -8,7 +8,7 @@ const insertOtp = async ({ email, otp }: IInsertOtp) => {
     const checkQuery = await submitQuery`
         SELECT EXISTS (
             SELECT 1 
-            FROM otp 
+            FROM email_otp 
             WHERE email = ${email} 
             AND expires_at > CURRENT_TIMESTAMP
         ) AS has_unexpired
@@ -20,13 +20,13 @@ const insertOtp = async ({ email, otp }: IInsertOtp) => {
 
     // If no unexpired OTP exists, proceed with insertion/update
     return submitQuery`
-        INSERT INTO otp (email, otp_code)
+        INSERT INTO email_otp (email, otp_code)
         VALUES (${email}, ${otp})
         ON CONFLICT (email) 
         DO UPDATE 
         SET otp_code = ${otp}, 
             expires_at = CURRENT_TIMESTAMP + INTERVAL '2m'
-        WHERE otp.expires_at < CURRENT_TIMESTAMP
+        WHERE email_otp.expires_at < CURRENT_TIMESTAMP
         RETURNING *
     `;
 };

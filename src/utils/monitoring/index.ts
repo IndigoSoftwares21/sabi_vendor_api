@@ -13,8 +13,8 @@ export function error(message: string, error: Error): void {
     const timestamp = new Date().toISOString();
     console.error(`[${timestamp}] [ERROR] ${message}`, {
         error: {
-            message: error.message,
-            stack: error.stack
+            message: error?.message,
+            stack: error?.stack
         }
     });
     // Optionally, integrate with an external monitoring service (e.g., Sentry, Loggly)

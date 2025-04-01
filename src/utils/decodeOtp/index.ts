@@ -1,5 +1,9 @@
 import crypto from "crypto";
 
+interface IDecodeOtp {
+    inputOtp: string;
+    storedHash: string;
+}
 /**
  * Verifies if the provided OTP matches the stored hash.
  * 
@@ -8,20 +12,29 @@ import crypto from "crypto";
  * @returns {boolean} Returns true if the input OTP, when hashed, matches the stored hash, otherwise false.
  * @throws {Error} Throws an error if the OTP secret is not found in the environment variables.
  */
-const decodeOtp = (inputOtp: string, storedHash: string): boolean => {
-    // Retrieve the OTP_SECRET from environment variables
-    const secret = process.env.OTP_SECRET;
-    if (!secret) {
-        throw new Error("OTP secret not found");
+const decodeOtp = ({
+    inputOtp,
+    storedHash,
+}: IDecodeOtp): boolean => {
+    try {
+        // Retrieve the OTP_SECRET from environment variables
+        const secret = process.env.OTP_SECRET;
+        if (!secret) {
+            throw "OTP secret not found";
+        }
+
+        // Hash the input OTP using the same method (HMAC-SHA-256 with the secret)
+        const hmac = crypto.createHmac("sha256", secret);
+        hmac.update(inputOtp);
+        const inputHash = hmac.digest("hex");
+        console.log("inputHash", inputHash);
+        console.log("storedHash", storedHash);
+
+        return inputHash === storedHash;
+
+    } catch (error) {
+        throw error;
     }
-
-    // Hash the input OTP using the same method (HMAC-SHA-256 with the secret)
-    const hmac = crypto.createHmac("sha256", secret);
-    hmac.update(inputOtp);
-    const inputHash = hmac.digest("hex");
-
-    // Compare the hashed input OTP with the stored hash
-    return inputHash === storedHash;
 }
 
 export default decodeOtp;

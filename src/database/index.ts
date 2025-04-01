@@ -106,17 +106,25 @@ async function submitQuery(strings: TemplateStringsArray, ...rest: any[]): Promi
     let client;
     try {
         client = await pool.connect();
-        const escapedQuery = sql(strings, ...rest);
+        const escapedQuery = sql(strings, ...rest); // Parameterized query for execution
 
+        // Format the query with actual values for logging
         if (strings[0].toLowerCase().includes('debug')) {
-            console.log(`\x1B[36m${escapedQuery}\x1B[39m`);
+            let formattedQuery = strings[0];
+            for (let i = 0; i < rest.length; i++) {
+                // Add quotes around strings, no quotes for numbers, etc.
+                const value = typeof rest[i] === 'string' ? `'${rest[i]}'` : rest[i];
+                formattedQuery += value + strings[i + 1];
+            }
+            console.log(`\x1B[36m${formattedQuery}\x1B[39m`);
         }
 
-        if (process.env.NODE_ENV === 'test') {
+        if (process.env.NODE_ENV === 'development') {
             queryLog.push(escapedQuery);
         }
 
-        return (await client.query(escapedQuery, rest)).rows;
+        // Execute the parameterized query, not the formatted one
+        return (await client.query(escapedQuery, rest)).rows || [];
     } catch (err) {
         monitoring.error('Query execution failed', err instanceof Error ? err : new Error(String(err)));
         throw err;
@@ -205,9 +213,16 @@ async function rollbackTransaction(): Promise<void> {
  * Transforms result keys to camelCase.
  */
 function camelKeys(query: any): any {
-    return async (...args: any[]) => {
-        const results = await query(...args);
-        return results.map(d => mapKeys(d, (v, k) => camelCase(k)));
+    return async (...args: any) => {
+        try {
+            const results = await query(...args);
+            if (!results || results.length === 0 || !Array.isArray(results)) {
+                return results;
+            }
+            return results.map(d => mapKeys(d, (v, k) => camelCase(k)));
+        } catch (error) {
+            throw error;
+        }
     };
 }
 
@@ -220,9 +235,13 @@ function getFirst(
     defaultValue: any = null
 ): (...args: any[]) => Promise<any> {
     return async (...args: any[]) => {
-        const results = await query(...args);
-        const pathToGet = propertyToGet ? `[0].${propertyToGet}` : '[0]';
-        return get(results, pathToGet, defaultValue);
+        try {
+            const results = await query(...args);
+            const pathToGet = propertyToGet ? `[0].${propertyToGet}` : '[0]';
+            return get(results, pathToGet, defaultValue);
+        } catch (error) {
+            throw error;
+        }
     };
 }
 
