@@ -8,9 +8,9 @@ import mapKeys from 'lodash/mapKeys';
 import * as monitoring from '@/utils/monitoring';
 import nestTabularData from '@/utils/nestTabularData';
 
-dotenv.config({
-    path: path.join(__dirname, '../.env')
-});
+dotenv.config()
+
+
 
 // DATABASE_URL is available on DOKKU
 const connectionDetails = {
@@ -20,6 +20,29 @@ const connectionDetails = {
     database: process.env.DB_NAME,
     port: parseInt(process.env.DB_PORT || '5432', 10)
 };
+
+console.log('Connecting to PostgreSQL database...');
+if (!connectionDetails.host) {
+    console.error('Database connection details are missing.');
+    process.exit(1);
+}
+if (!connectionDetails.user) {
+    console.error('Database user is missing.');
+    process.exit(1);
+}
+if (!connectionDetails.password) {
+    console.error('Database password is missing.');
+    process.exit(1);
+}
+if (!connectionDetails.database) {
+    console.error('Database name is missing.');
+    process.exit(1);
+}
+if (!connectionDetails.port) {
+    console.error('Database port is missing.');
+    process.exit(1);
+}
+
 
 const CONFIG = {
     ...connectionDetails,

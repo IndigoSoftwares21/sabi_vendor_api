@@ -1,0 +1,2 @@
+-- Down migration for jay_demo
+-- Write your SQL here
