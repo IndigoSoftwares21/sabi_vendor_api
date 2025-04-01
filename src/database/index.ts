@@ -8,9 +8,7 @@ import mapKeys from 'lodash/mapKeys';
 import * as monitoring from '@/utils/monitoring';
 import nestTabularData from '@/utils/nestTabularData';
 
-dotenv.config()
-
-
+dotenv.config();
 
 // DATABASE_URL is available on DOKKU
 const connectionDetails = {
@@ -18,12 +16,12 @@ const connectionDetails = {
     user: process.env.DB_USER,
     password: process.env.DB_PASSWORD,
     database: process.env.DB_NAME,
-    port: parseInt(process.env.DB_PORT || '5432', 10)
+    port: process.env.DB_PORT ? parseInt(process.env.DB_PORT, 10) : 5432
 };
 
 console.log('Connecting to PostgreSQL database...');
 if (!connectionDetails.host) {
-    console.error('Database connection details are missing.');
+    console.error('Database host is missing.');
     process.exit(1);
 }
 if (!connectionDetails.user) {
@@ -43,17 +41,16 @@ if (!connectionDetails.port) {
     process.exit(1);
 }
 
-
 const CONFIG = {
     ...connectionDetails,
-    max: 20, // connection pool max size
-    idleTimeoutMillis: 30000, // how long a client is allowed to remain idle before being closed
-    connectionTimeoutMillis: 2000, // how long to wait when connecting before timing out
+    max: 20,
+    idleTimeoutMillis: 30000,
+    connectionTimeoutMillis: 2000
 };
 
 const pool = new Pool(CONFIG);
 let transactionStack: Error[] = [];
-const queryLog: string[] = [];
+let queryLog: string[] = [];
 const ESCAPE_SYMBOL = Symbol('ESCAPED');
 
 // Setup connection error handling
@@ -61,11 +58,9 @@ pool.on('error', (err) => {
     monitoring.error('Unexpected PostgreSQL client error', err);
 });
 
-/** Type definition for a query function that returns a Promise of an array */
-type QueryFunction = (...args: any[]) => Promise<any[]>;
+// Type definitions
 
-/** Type definition for a query function that returns a Promise of QueryResult */
-type QueryResultFunction = (...args: any[]) => Promise<QueryResult>;
+type QueryResultFunction = (...args: any[]) => Promise<QueryResult<any>>;
 
 /**
  * Builds a parameterized SQL query string using tagged template literals.
@@ -105,11 +100,12 @@ function sqlValueOrNull(val: any): string {
 }
 
 /**
- * Executes a parameterized SQL query and returns the result.
+ * Executes a parameterized SQL query and returns the full QueryResult.
  */
-async function submitQuery(strings: TemplateStringsArray, ...rest: any[]): Promise<QueryResult> {
-    const client = await pool.connect();
+async function submitQuery(strings: TemplateStringsArray, ...rest: any[]): Promise<any[]> {
+    let client;
     try {
+        client = await pool.connect();
         const escapedQuery = sql(strings, ...rest);
 
         if (strings[0].toLowerCase().includes('debug')) {
@@ -120,10 +116,21 @@ async function submitQuery(strings: TemplateStringsArray, ...rest: any[]): Promi
             queryLog.push(escapedQuery);
         }
 
-        return await client.query(escapedQuery, rest);
+        return (await client.query(escapedQuery, rest)).rows;
+    } catch (err) {
+        monitoring.error('Query execution failed', err instanceof Error ? err : new Error(String(err)));
+        throw err;
     } finally {
-        client.release();
+        if (client) client.release();
     }
+}
+
+/**
+ * Executes a parameterized SQL query and returns only the rows.
+ */
+async function submitQueryRows(strings: TemplateStringsArray, ...rest: any[]): Promise<any[]> {
+    const result = await submitQuery(strings, ...rest);
+    return result;
 }
 
 /**
@@ -134,14 +141,19 @@ async function startTransaction(): Promise<void> {
     const traceLabel = `${new Date()}: Uncommitted Transaction @`;
     const stack = new Error(traceLabel);
 
-    if (transactionStack.length > 0) {
-        client.release();
-        return;
-    }
+    try {
+        if (transactionStack.length > 0) {
+            return;
+        }
 
-    await client.query('BEGIN');
-    transactionStack.push(stack);
-    client.release();
+        await client.query('BEGIN');
+        transactionStack.push(stack);
+    } catch (err) {
+        monitoring.error('Failed to start transaction', err instanceof Error ? err : new Error(String(err)));
+        throw err;
+    } finally {
+        client.release();
+    }
 }
 
 /**
@@ -151,14 +163,20 @@ async function commitTransaction(): Promise<void> {
     const client = await pool.connect();
     const lastTransaction = transactionStack.pop();
 
-    if (!lastTransaction) {
-        console.trace('committing non-existing transaction');
-    }
+    try {
+        if (!lastTransaction) {
+            console.trace('committing non-existing transaction');
+        }
 
-    if (transactionStack.length === 0) {
-        await client.query('COMMIT');
+        if (transactionStack.length === 0) {
+            await client.query('COMMIT');
+        }
+    } catch (err) {
+        monitoring.error('Failed to commit transaction', err instanceof Error ? err : new Error(String(err)));
+        throw err;
+    } finally {
+        client.release();
     }
-    client.release();
 }
 
 /**
@@ -168,19 +186,25 @@ async function rollbackTransaction(): Promise<void> {
     const client = await pool.connect();
     const lastTransaction = transactionStack.pop();
 
-    if (!lastTransaction) {
-        console.trace('rolling back non-existing transaction');
-    }
+    try {
+        if (!lastTransaction) {
+            console.trace('rolling back non-existing transaction');
+        }
 
-    transactionStack = [];
-    await client.query('ROLLBACK');
-    client.release();
+        transactionStack = [];
+        await client.query('ROLLBACK');
+    } catch (err) {
+        monitoring.error('Failed to rollback transaction', err instanceof Error ? err : new Error(String(err)));
+        throw err;
+    } finally {
+        client.release();
+    }
 }
 
 /**
  * Transforms result keys to camelCase.
  */
-function camelKeys(query: QueryFunction): QueryFunction {
+function camelKeys(query: any): any {
     return async (...args: any[]) => {
         const results = await query(...args);
         return results.map(d => mapKeys(d, (v, k) => camelCase(k)));
@@ -191,7 +215,7 @@ function camelKeys(query: QueryFunction): QueryFunction {
  * Returns the first result or a specific property.
  */
 function getFirst(
-    query: QueryFunction,
+    query: any,
     propertyToGet: string | null = null,
     defaultValue: any = null
 ): (...args: any[]) => Promise<any> {
@@ -206,7 +230,7 @@ function getFirst(
  * Extracts a specific property from all results.
  */
 function getProperty(
-    query: QueryFunction,
+    query: any,
     propertyToGet: string,
     defaultValue: any = null
 ): (...args: any[]) => Promise<any[]> {
@@ -217,36 +241,29 @@ function getProperty(
 }
 
 /**
- * Returns an array of inserted IDs.
+ * Returns an array of inserted IDs (assumes a 'RETURNING id' clause in the query).
  */
-function getInsertIds(query: QueryResultFunction): (...args: any[]) => Promise<number[]> {
+function getInsertIds(query: any): (...args: any[]) => Promise<number[]> {
     return async (...args: any[]) => {
         const results = await query(...args);
-        const insertIds: number[] = [];
-        const firstInsertId = results.rows[0]?.id || 0;
-
-        for (let i = 0; i < (results.rowCount || 0); i += 1) {
-            insertIds.push(firstInsertId + i);
-        }
-
-        return insertIds;
+        return results.map(row => row.id);
     };
 }
 
 /**
- * Returns the first inserted ID.
+ * Returns the first inserted ID (assumes a 'RETURNING id' clause in the query).
  */
-function getInsertId(query: QueryResultFunction): (...args: any[]) => Promise<number | undefined> {
+function getInsertId(query: any): (...args: any[]) => Promise<number | undefined> {
     return async (...args: any[]) => {
         const results = await query(...args);
-        return results.rows[0]?.id;
+        return results[0]?.id;
     };
 }
 
 /**
  * Nests tabular data based on options.
  */
-function nest(query: QueryFunction, nestOptions: any): (...args: any[]) => Promise<any> {
+function nest(query: any, nestOptions: any): (...args: any[]) => Promise<any> {
     return async (...args: any[]) => {
         const results = await query(...args);
         return nestTabularData(results, nestOptions);
@@ -295,6 +312,7 @@ function _resetTestQueryLog(): void {
 
 export {
     submitQuery,
+    submitQueryRows, // New export for row-only queries
     sql,
     sqlId,
     sqlValueOrNull,

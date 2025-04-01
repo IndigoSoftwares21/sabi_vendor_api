@@ -10,7 +10,10 @@ import crypto from "crypto";
  * @returns {string} The hashed OTP as a hexadecimal string
  * @throws {Error} Throws an error if the OTP secret is not found in the environment variables or if HMAC creation fails
  */
-const generateAndEncodeOtp = (): string => {
+const generateAndEncodeOtp = (): {
+    otp: string;
+    hashOtp: string;
+} => {
     try {
         // Generate a 6-digit OTP with only digits
         const otp = otpGenerator.generate(6, {
@@ -22,7 +25,6 @@ const generateAndEncodeOtp = (): string => {
 
         // Retrieve the OTP_SECRET from environment variables
         const secret = process.env.OTP_SECRET;
-        console.log("secret", secret);
         if (!secret) {
             throw new Error("OTP secret not found");
         }
@@ -31,8 +33,10 @@ const generateAndEncodeOtp = (): string => {
         const hmac = crypto.createHmac("sha256", secret);
         hmac.update(otp);
         const hashOtp = hmac.digest("hex");
-        console.log("hashOtp", hashOtp);
-        return hashOtp;
+        return {
+            otp,
+            hashOtp,
+        };
     } catch (error) {
         throw new Error(`Failed to generate OTP: ${error}`);
     }

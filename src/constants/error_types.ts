@@ -1,0 +1,5 @@
+enum ERRORS {
+    FORM_VALIDATION_ERROR = 'FORM_VALIDATION_ERROR',
+}
+
+export default ERRORS;

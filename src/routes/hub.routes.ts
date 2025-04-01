@@ -1,4 +1,4 @@
-import loginWithEmail from '@/controllers/hub/loginWithEmail';
+import sendEmailOtp from '@/controllers/hub/sendEmailOtp';
 import { Router } from 'express';
 
 const router = Router();
@@ -9,6 +9,6 @@ router.get('/', (req, res) => {
 
 
 // authentication
-router.post("/auth/login/email", loginWithEmail)
+router.post("/auth/email/otp", sendEmailOtp);
 
 export default router;

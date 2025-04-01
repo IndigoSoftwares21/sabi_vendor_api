@@ -1,6 +1,7 @@
 import { Response } from 'express';
 import { ZodError } from 'zod';
 import monitoring from '../monitoring';
+import ERRORS from '@/constants/error_types';
 
 interface IHandleError {
     res: Response;
@@ -31,9 +32,9 @@ const handleError = ({
 
     if (error instanceof ZodError) {
         errorResponse = {
-            message: 'Validation error',
+            message: ERRORS.FORM_VALIDATION_ERROR,
             code: 400,
-            error: error.errors,
+            error,
         };
     }
 

@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-const loginWithEmailSchema = z.object({
+const sendEmailOtpSchema = z.object({
     email: z
         .string()
         .email("Invalid email address")
@@ -8,6 +8,6 @@ const loginWithEmailSchema = z.object({
         .max(255, "Email must be less than 255 characters"),
 });
 
-type TLoginWithEmail = z.infer<typeof loginWithEmailSchema>;
+type TSendEmailOtp = z.infer<typeof sendEmailOtpSchema>;
 
-export { loginWithEmailSchema, TLoginWithEmail };
+export { sendEmailOtpSchema, TSendEmailOtp };

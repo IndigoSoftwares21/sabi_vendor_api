@@ -5,8 +5,12 @@ import hubRoutes from '@/routes/hub.routes';
 import appRoutes from '@/routes/app.routes';
 
 import dotenv from 'dotenv';
-
-
+import cors from 'cors';
+const corsOptions = {
+    origin: [process.env.CORS_ORIGIN || 'http://localhost:5173'],
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    preflightContinue: false,
+};
 class App {
     public express: express.Application;
 
@@ -17,6 +21,7 @@ class App {
     }
 
     private initializeMiddlewares(): void {
+        this.express.use(cors(corsOptions));
         this.express.use(express.json());
         this.express.use(express.urlencoded({ extended: true }));
     }
