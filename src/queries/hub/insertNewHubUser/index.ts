@@ -11,7 +11,6 @@ const insertNewHubUser = async ({
     lastName,
     email,
 }: InsertNewHubUser) => submitQuery`
--- debug
     INSERT INTO hub_users (first_name, last_name, email)
     VALUES (${firstName}, ${lastName}, ${email})
     RETURNING id, first_name, last_name, email`

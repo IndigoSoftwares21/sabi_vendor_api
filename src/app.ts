@@ -3,6 +3,7 @@ import { disconnect } from '@/database';
 import monitoring from './utils/monitoring';
 import hubRoutes from '@/routes/hub.routes';
 import appRoutes from '@/routes/app.routes';
+import sharedRoutes from '@/routes/shared.routes';
 
 import dotenv from 'dotenv';
 import cors from 'cors';
@@ -30,6 +31,7 @@ class App {
         monitoring.info('Initializing routes');
         this.express.use("/api/v1/hub", hubRoutes);
         this.express.use("/api/v1/app", appRoutes);
+        this.express.use("/api/v1/shared", sharedRoutes);
     }
 
     public async start(port: number): Promise<void> {

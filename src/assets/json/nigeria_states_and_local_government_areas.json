@@ -1,0 +1,3872 @@
+[
+  {
+    "": 0,
+    "LGA": "Abadam",
+    "State": "Borno State"
+  },
+  {
+    "": 1,
+    "LGA": "Abaji",
+    "State": "FCT"
+  },
+  {
+    "": 2,
+    "LGA": "Abak",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 3,
+    "LGA": "Abakaliki",
+    "State": "Ebonyi State"
+  },
+  {
+    "": 4,
+    "LGA": "Aba North",
+    "State": "Abia State"
+  },
+  {
+    "": 5,
+    "LGA": "Aba South",
+    "State": "Abia State"
+  },
+  {
+    "": 6,
+    "LGA": "Abeokuta North",
+    "State": "Ogun State"
+  },
+  {
+    "": 7,
+    "LGA": "Abeokuta South",
+    "State": "Ogun State"
+  },
+  {
+    "": 8,
+    "LGA": "Abi",
+    "State": "Cross River State"
+  },
+  {
+    "": 9,
+    "LGA": "Aboh Mbaise",
+    "State": "Imo State"
+  },
+  {
+    "": 10,
+    "LGA": "Abua/Odual",
+    "State": "Rivers State"
+  },
+  {
+    "": 11,
+    "LGA": "Abuja",
+    "State": "FCT"
+  },
+  {
+    "": 12,
+    "LGA": "Adavi",
+    "State": "Kogi State"
+  },
+  {
+    "": 13,
+    "LGA": "Ado Ekiti",
+    "State": "Ekiti State"
+  },
+  {
+    "": 14,
+    "LGA": "Ado-Odo/Ota",
+    "State": "Ogun State"
+  },
+  {
+    "": 15,
+    "LGA": "Afijio",
+    "State": "Oyo State"
+  },
+  {
+    "": 16,
+    "LGA": "Afikpo North",
+    "State": "Ebonyi State"
+  },
+  {
+    "": 17,
+    "LGA": "Afikpo South (Edda)",
+    "State": "Ebonyi State"
+  },
+  {
+    "": 18,
+    "LGA": "Agaie",
+    "State": "Niger State"
+  },
+  {
+    "": 19,
+    "LGA": "Agatu",
+    "State": "Benue State"
+  },
+  {
+    "": 20,
+    "LGA": "Agwara",
+    "State": "Niger State"
+  },
+  {
+    "": 21,
+    "LGA": "Agege",
+    "State": "Lagos State"
+  },
+  {
+    "": 22,
+    "LGA": "Aguata",
+    "State": "Anambra State"
+  },
+  {
+    "": 23,
+    "LGA": "Ahiazu Mbaise",
+    "State": "Imo State"
+  },
+  {
+    "": 24,
+    "LGA": "Ahoada East",
+    "State": "Rivers State"
+  },
+  {
+    "": 25,
+    "LGA": "Ahoada West",
+    "State": "Rivers State"
+  },
+  {
+    "": 26,
+    "LGA": "Ajaokuta",
+    "State": "Kogi State"
+  },
+  {
+    "": 27,
+    "LGA": "Ajeromi-Ifelodun",
+    "State": "Lagos State"
+  },
+  {
+    "": 28,
+    "LGA": "Ajingi",
+    "State": "Kano State"
+  },
+  {
+    "": 29,
+    "LGA": "Akamkpa",
+    "State": "Cross River State"
+  },
+  {
+    "": 30,
+    "LGA": "Akinyele",
+    "State": "Oyo State"
+  },
+  {
+    "": 31,
+    "LGA": "Akko",
+    "State": "Gombe State"
+  },
+  {
+    "": 32,
+    "LGA": "Akoko-Edo",
+    "State": "Edo State"
+  },
+  {
+    "": 33,
+    "LGA": "Akoko North-East",
+    "State": "Ondo State"
+  },
+  {
+    "": 34,
+    "LGA": "Akoko North-West",
+    "State": "Ondo State"
+  },
+  {
+    "": 35,
+    "LGA": "Akoko South-West",
+    "State": "Ondo State"
+  },
+  {
+    "": 36,
+    "LGA": "Akoko South-East",
+    "State": "Ondo State"
+  },
+  {
+    "": 37,
+    "LGA": "Akpabuyo",
+    "State": "Cross River State"
+  },
+  {
+    "": 38,
+    "LGA": "Akuku-Toru",
+    "State": "Rivers State"
+  },
+  {
+    "": 39,
+    "LGA": "Akure North",
+    "State": "Ondo State"
+  },
+  {
+    "": 40,
+    "LGA": "Akure South",
+    "State": "Ondo State"
+  },
+  {
+    "": 41,
+    "LGA": "Akwanga",
+    "State": "Nasarawa State"
+  },
+  {
+    "": 42,
+    "LGA": "Albasu",
+    "State": "Kano State"
+  },
+  {
+    "": 43,
+    "LGA": "Aleiro",
+    "State": "Kebbi State"
+  },
+  {
+    "": 44,
+    "LGA": "Alimosho",
+    "State": "Lagos State"
+  },
+  {
+    "": 45,
+    "LGA": "Alkaleri",
+    "State": "Bauchi State"
+  },
+  {
+    "": 46,
+    "LGA": "Amuwo-Odofin",
+    "State": "Lagos State"
+  },
+  {
+    "": 47,
+    "LGA": "Anambra East",
+    "State": "Anambra State"
+  },
+  {
+    "": 48,
+    "LGA": "Anambra West",
+    "State": "Anambra State"
+  },
+  {
+    "": 49,
+    "LGA": "Anaocha",
+    "State": "Anambra State"
+  },
+  {
+    "": 50,
+    "LGA": "Andoni",
+    "State": "Rivers State"
+  },
+  {
+    "": 51,
+    "LGA": "Aninri",
+    "State": "Enugu State"
+  },
+  {
+    "": 52,
+    "LGA": "Aniocha North",
+    "State": "Delta State"
+  },
+  {
+    "": 53,
+    "LGA": "Aniocha South",
+    "State": "Delta State"
+  },
+  {
+    "": 54,
+    "LGA": "Anka",
+    "State": "Zamfara State"
+  },
+  {
+    "": 55,
+    "LGA": "Ankpa",
+    "State": "Kogi State"
+  },
+  {
+    "": 56,
+    "LGA": "Apa",
+    "State": "Benue State"
+  },
+  {
+    "": 57,
+    "LGA": "Apapa",
+    "State": "Lagos State"
+  },
+  {
+    "": 58,
+    "LGA": "Ado",
+    "State": "Benue State"
+  },
+  {
+    "": 59,
+    "LGA": "Ardo Kola",
+    "State": "Taraba State"
+  },
+  {
+    "": 60,
+    "LGA": "Arewa Dandi",
+    "State": "Kebbi State"
+  },
+  {
+    "": 61,
+    "LGA": "Argungu",
+    "State": "Kebbi State"
+  },
+  {
+    "": 62,
+    "LGA": "Arochukwu",
+    "State": "Abia State"
+  },
+  {
+    "": 63,
+    "LGA": "Asa",
+    "State": "Kwara State"
+  },
+  {
+    "": 64,
+    "LGA": "Asari-Toru",
+    "State": "Rivers State"
+  },
+  {
+    "": 65,
+    "LGA": "Askira/Uba",
+    "State": "Borno State"
+  },
+  {
+    "": 66,
+    "LGA": "Atakunmosa East",
+    "State": "Osun State"
+  },
+  {
+    "": 67,
+    "LGA": "Atakunmosa West",
+    "State": "Osun State"
+  },
+  {
+    "": 68,
+    "LGA": "Atiba",
+    "State": "Oyo State"
+  },
+  {
+    "": 69,
+    "LGA": "Atisbo",
+    "State": "Oyo State"
+  },
+  {
+    "": 70,
+    "LGA": "Augie",
+    "State": "Kebbi State"
+  },
+  {
+    "": 71,
+    "LGA": "Auyo",
+    "State": "Jigawa State"
+  },
+  {
+    "": 72,
+    "LGA": "Awe",
+    "State": "Nasarawa State"
+  },
+  {
+    "": 73,
+    "LGA": "Awgu",
+    "State": "Enugu State"
+  },
+  {
+    "": 74,
+    "LGA": "Awka North",
+    "State": "Anambra State"
+  },
+  {
+    "": 75,
+    "LGA": "Awka South",
+    "State": "Anambra State"
+  },
+  {
+    "": 76,
+    "LGA": "Ayamelum",
+    "State": "Anambra State"
+  },
+  {
+    "": 77,
+    "LGA": "Aiyedaade",
+    "State": "Osun State"
+  },
+  {
+    "": 78,
+    "LGA": "Aiyedire",
+    "State": "Osun State"
+  },
+  {
+    "": 79,
+    "LGA": "Babura",
+    "State": "Jigawa State"
+  },
+  {
+    "": 80,
+    "LGA": "Badagry",
+    "State": "Lagos State"
+  },
+  {
+    "": 81,
+    "LGA": "Bagudo",
+    "State": "Kebbi State"
+  },
+  {
+    "": 82,
+    "LGA": "Bagwai",
+    "State": "Kano State"
+  },
+  {
+    "": 83,
+    "LGA": "Bakassi",
+    "State": "Cross River State"
+  },
+  {
+    "": 84,
+    "LGA": "Bokkos",
+    "State": "Plateau State"
+  },
+  {
+    "": 85,
+    "LGA": "Bakori",
+    "State": "Katsina State"
+  },
+  {
+    "": 86,
+    "LGA": "Bakura",
+    "State": "Zamfara State"
+  },
+  {
+    "": 87,
+    "LGA": "Balanga",
+    "State": "Gombe State"
+  },
+  {
+    "": 88,
+    "LGA": "Bali",
+    "State": "Taraba State"
+  },
+  {
+    "": 89,
+    "LGA": "Bama",
+    "State": "Borno State"
+  },
+  {
+    "": 90,
+    "LGA": "Bade",
+    "State": "Yobe State"
+  },
+  {
+    "": 91,
+    "LGA": "Barkin Ladi",
+    "State": "Plateau State"
+  },
+  {
+    "": 92,
+    "LGA": "Baruten",
+    "State": "Kwara State"
+  },
+  {
+    "": 93,
+    "LGA": "Bassa",
+    "State": "Kogi State"
+  },
+  {
+    "": 94,
+    "LGA": "Bassa",
+    "State": "Plateau State"
+  },
+  {
+    "": 95,
+    "LGA": "Batagarawa",
+    "State": "Katsina State"
+  },
+  {
+    "": 96,
+    "LGA": "Batsari",
+    "State": "Katsina State"
+  },
+  {
+    "": 97,
+    "LGA": "Bauchi",
+    "State": "Bauchi State"
+  },
+  {
+    "": 98,
+    "LGA": "Baure",
+    "State": "Katsina State"
+  },
+  {
+    "": 99,
+    "LGA": "Bayo",
+    "State": "Borno State"
+  },
+  {
+    "": 100,
+    "LGA": "Bebeji",
+    "State": "Kano State"
+  },
+  {
+    "": 101,
+    "LGA": "Bekwarra",
+    "State": "Cross River State"
+  },
+  {
+    "": 102,
+    "LGA": "Bende",
+    "State": "Abia State"
+  },
+  {
+    "": 103,
+    "LGA": "Biase",
+    "State": "Cross River State"
+  },
+  {
+    "": 104,
+    "LGA": "Bichi",
+    "State": "Kano State"
+  },
+  {
+    "": 105,
+    "LGA": "Bida",
+    "State": "Niger State"
+  },
+  {
+    "": 106,
+    "LGA": "Billiri",
+    "State": "Gombe State"
+  },
+  {
+    "": 107,
+    "LGA": "Bindawa",
+    "State": "Katsina State"
+  },
+  {
+    "": 108,
+    "LGA": "Binji",
+    "State": "Sokoto State"
+  },
+  {
+    "": 109,
+    "LGA": "Biriniwa",
+    "State": "Jigawa State"
+  },
+  {
+    "": 110,
+    "LGA": "Birnin Gwari",
+    "State": "Kaduna State"
+  },
+  {
+    "": 111,
+    "LGA": "Birnin Kebbi",
+    "State": "Kebbi State"
+  },
+  {
+    "": 112,
+    "LGA": "Birnin Kudu",
+    "State": "Jigawa State"
+  },
+  {
+    "": 113,
+    "LGA": "Birnin Magaji/Kiyaw",
+    "State": "Zamfara State"
+  },
+  {
+    "": 114,
+    "LGA": "Biu",
+    "State": "Borno State"
+  },
+  {
+    "": 115,
+    "LGA": "Bodinga",
+    "State": "Sokoto State"
+  },
+  {
+    "": 116,
+    "LGA": "Bogoro",
+    "State": "Bauchi State"
+  },
+  {
+    "": 117,
+    "LGA": "Boki",
+    "State": "Cross River State"
+  },
+  {
+    "": 118,
+    "LGA": "Boluwaduro",
+    "State": "Osun State"
+  },
+  {
+    "": 119,
+    "LGA": "Bomadi",
+    "State": "Delta State"
+  },
+  {
+    "": 120,
+    "LGA": "Bonny",
+    "State": "Rivers State"
+  },
+  {
+    "": 121,
+    "LGA": "Borgu",
+    "State": "Niger State"
+  },
+  {
+    "": 122,
+    "LGA": "Boripe",
+    "State": "Osun State"
+  },
+  {
+    "": 123,
+    "LGA": "Bursari",
+    "State": "Yobe State"
+  },
+  {
+    "": 124,
+    "LGA": "Bosso",
+    "State": "Niger State"
+  },
+  {
+    "": 125,
+    "LGA": "Brass",
+    "State": "Bayelsa State"
+  },
+  {
+    "": 126,
+    "LGA": "Buji",
+    "State": "Jigawa State"
+  },
+  {
+    "": 127,
+    "LGA": "Bukkuyum",
+    "State": "Zamfara State"
+  },
+  {
+    "": 128,
+    "LGA": "Buruku",
+    "State": "Benue State"
+  },
+  {
+    "": 129,
+    "LGA": "Bungudu",
+    "State": "Zamfara State"
+  },
+  {
+    "": 130,
+    "LGA": "Bunkure",
+    "State": "Kano State"
+  },
+  {
+    "": 131,
+    "LGA": "Bunza",
+    "State": "Kebbi State"
+  },
+  {
+    "": 132,
+    "LGA": "Burutu",
+    "State": "Delta State"
+  },
+  {
+    "": 133,
+    "LGA": "Bwari",
+    "State": "FCT"
+  },
+  {
+    "": 134,
+    "LGA": "Calabar Municipal",
+    "State": "Cross River State"
+  },
+  {
+    "": 135,
+    "LGA": "Calabar South",
+    "State": "Cross River State"
+  },
+  {
+    "": 136,
+    "LGA": "Chanchaga",
+    "State": "Niger State"
+  },
+  {
+    "": 137,
+    "LGA": "Charanchi",
+    "State": "Katsina State"
+  },
+  {
+    "": 138,
+    "LGA": "Chibok",
+    "State": "Borno State"
+  },
+  {
+    "": 139,
+    "LGA": "Chikun",
+    "State": "Kaduna State"
+  },
+  {
+    "": 140,
+    "LGA": "Dala",
+    "State": "Kano State"
+  },
+  {
+    "": 141,
+    "LGA": "Damaturu",
+    "State": "Yobe State"
+  },
+  {
+    "": 142,
+    "LGA": "Damban",
+    "State": "Bauchi State"
+  },
+  {
+    "": 143,
+    "LGA": "Dambatta",
+    "State": "Kano State"
+  },
+  {
+    "": 144,
+    "LGA": "Damboa",
+    "State": "Borno State"
+  },
+  {
+    "": 145,
+    "LGA": "Dandi",
+    "State": "Kebbi State"
+  },
+  {
+    "": 146,
+    "LGA": "Dandume",
+    "State": "Katsina State"
+  },
+  {
+    "": 147,
+    "LGA": "Dange Shuni",
+    "State": "Sokoto State"
+  },
+  {
+    "": 148,
+    "LGA": "Danja",
+    "State": "Katsina State"
+  },
+  {
+    "": 149,
+    "LGA": "Dan Musa",
+    "State": "Katsina State"
+  },
+  {
+    "": 150,
+    "LGA": "Darazo",
+    "State": "Bauchi State"
+  },
+  {
+    "": 151,
+    "LGA": "Dass",
+    "State": "Bauchi State"
+  },
+  {
+    "": 152,
+    "LGA": "Daura",
+    "State": "Katsina State"
+  },
+  {
+    "": 153,
+    "LGA": "Dawakin Kudu",
+    "State": "Kano State"
+  },
+  {
+    "": 154,
+    "LGA": "Dawakin Tofa",
+    "State": "Kano State"
+  },
+  {
+    "": 155,
+    "LGA": "Degema",
+    "State": "Rivers State"
+  },
+  {
+    "": 156,
+    "LGA": "Dekina",
+    "State": "Kogi State"
+  },
+  {
+    "": 157,
+    "LGA": "Demsa",
+    "State": "Adamawa State"
+  },
+  {
+    "": 158,
+    "LGA": "Dikwa",
+    "State": "Borno State"
+  },
+  {
+    "": 159,
+    "LGA": "Doguwa",
+    "State": "Kano State"
+  },
+  {
+    "": 160,
+    "LGA": "Doma",
+    "State": "Nasarawa State"
+  },
+  {
+    "": 161,
+    "LGA": "Donga",
+    "State": "Taraba State"
+  },
+  {
+    "": 162,
+    "LGA": "Dukku",
+    "State": "Gombe State"
+  },
+  {
+    "": 163,
+    "LGA": "Dunukofia",
+    "State": "Anambra State"
+  },
+  {
+    "": 164,
+    "LGA": "Dutse",
+    "State": "Jigawa State"
+  },
+  {
+    "": 165,
+    "LGA": "Dutsi",
+    "State": "Katsina State"
+  },
+  {
+    "": 166,
+    "LGA": "Dutsin Ma",
+    "State": "Katsina State"
+  },
+  {
+    "": 167,
+    "LGA": "Eastern Obolo",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 168,
+    "LGA": "Ebonyi",
+    "State": "Ebonyi State"
+  },
+  {
+    "": 169,
+    "LGA": "Edati",
+    "State": "Niger State"
+  },
+  {
+    "": 170,
+    "LGA": "Ede North",
+    "State": "Osun State"
+  },
+  {
+    "": 171,
+    "LGA": "Ede South",
+    "State": "Osun State"
+  },
+  {
+    "": 172,
+    "LGA": "Edu",
+    "State": "Kwara State"
+  },
+  {
+    "": 173,
+    "LGA": "Ife Central",
+    "State": "Osun State"
+  },
+  {
+    "": 174,
+    "LGA": "Ife East",
+    "State": "Osun State"
+  },
+  {
+    "": 175,
+    "LGA": "Ife North",
+    "State": "Osun State"
+  },
+  {
+    "": 176,
+    "LGA": "Ife South",
+    "State": "Osun State"
+  },
+  {
+    "": 177,
+    "LGA": "Efon",
+    "State": "Ekiti State"
+  },
+  {
+    "": 178,
+    "LGA": "Yewa North",
+    "State": "Ogun State"
+  },
+  {
+    "": 179,
+    "LGA": "Yewa South",
+    "State": "Ogun State"
+  },
+  {
+    "": 180,
+    "LGA": "Egbeda",
+    "State": "Oyo State"
+  },
+  {
+    "": 181,
+    "LGA": "Egbedore",
+    "State": "Osun State"
+  },
+  {
+    "": 182,
+    "LGA": "Egor",
+    "State": "Edo State"
+  },
+  {
+    "": 183,
+    "LGA": "Ehime Mbano",
+    "State": "Imo State"
+  },
+  {
+    "": 184,
+    "LGA": "Ejigbo",
+    "State": "Osun State"
+  },
+  {
+    "": 185,
+    "LGA": "Ekeremor",
+    "State": "Bayelsa State"
+  },
+  {
+    "": 186,
+    "LGA": "Eket",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 187,
+    "LGA": "Ekiti",
+    "State": "Kwara State"
+  },
+  {
+    "": 188,
+    "LGA": "Ekiti East",
+    "State": "Ekiti State"
+  },
+  {
+    "": 189,
+    "LGA": "Ekiti South-West",
+    "State": "Ekiti State"
+  },
+  {
+    "": 190,
+    "LGA": "Ekiti West",
+    "State": "Ekiti State"
+  },
+  {
+    "": 191,
+    "LGA": "Ekwusigo",
+    "State": "Anambra State"
+  },
+  {
+    "": 192,
+    "LGA": "Eleme",
+    "State": "Rivers State"
+  },
+  {
+    "": 193,
+    "LGA": "Emuoha",
+    "State": "Rivers State"
+  },
+  {
+    "": 194,
+    "LGA": "Emure",
+    "State": "Ekiti State"
+  },
+  {
+    "": 195,
+    "LGA": "Enugu East",
+    "State": "Enugu State"
+  },
+  {
+    "": 196,
+    "LGA": "Enugu North",
+    "State": "Enugu State"
+  },
+  {
+    "": 197,
+    "LGA": "Enugu South",
+    "State": "Enugu State"
+  },
+  {
+    "": 198,
+    "LGA": "Epe",
+    "State": "Lagos State"
+  },
+  {
+    "": 199,
+    "LGA": "Esan Central",
+    "State": "Edo State"
+  },
+  {
+    "": 200,
+    "LGA": "Esan North-East",
+    "State": "Edo State"
+  },
+  {
+    "": 201,
+    "LGA": "Esan South-East",
+    "State": "Edo State"
+  },
+  {
+    "": 202,
+    "LGA": "Esan West",
+    "State": "Edo State"
+  },
+  {
+    "": 203,
+    "LGA": "Ese Odo",
+    "State": "Ondo State"
+  },
+  {
+    "": 204,
+    "LGA": "Esit Eket",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 205,
+    "LGA": "Essien Udim",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 206,
+    "LGA": "Etche",
+    "State": "Rivers State"
+  },
+  {
+    "": 207,
+    "LGA": "Ethiope East",
+    "State": "Delta State"
+  },
+  {
+    "": 208,
+    "LGA": "Ethiope West",
+    "State": "Delta State"
+  },
+  {
+    "": 209,
+    "LGA": "Etim Ekpo",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 210,
+    "LGA": "Etinan",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 211,
+    "LGA": "Eti Osa",
+    "State": "Lagos State"
+  },
+  {
+    "": 212,
+    "LGA": "Etsako Central",
+    "State": "Edo State"
+  },
+  {
+    "": 213,
+    "LGA": "Etsako East",
+    "State": "Edo State"
+  },
+  {
+    "": 214,
+    "LGA": "Etsako West",
+    "State": "Edo State"
+  },
+  {
+    "": 215,
+    "LGA": "Etung",
+    "State": "Cross River State"
+  },
+  {
+    "": 216,
+    "LGA": "Ewekoro",
+    "State": "Ogun State"
+  },
+  {
+    "": 217,
+    "LGA": "Ezeagu",
+    "State": "Enugu State"
+  },
+  {
+    "": 218,
+    "LGA": "Ezinihitte",
+    "State": "Imo State"
+  },
+  {
+    "": 219,
+    "LGA": "Ezza North",
+    "State": "Ebonyi State"
+  },
+  {
+    "": 220,
+    "LGA": "Ezza South",
+    "State": "Ebonyi State"
+  },
+  {
+    "": 221,
+    "LGA": "Fagge",
+    "State": "Kano State"
+  },
+  {
+    "": 222,
+    "LGA": "Fakai",
+    "State": "Kebbi State"
+  },
+  {
+    "": 223,
+    "LGA": "Faskari",
+    "State": "Katsina State"
+  },
+  {
+    "": 224,
+    "LGA": "Fika",
+    "State": "Yobe State"
+  },
+  {
+    "": 225,
+    "LGA": "Fufure",
+    "State": "Adamawa State"
+  },
+  {
+    "": 226,
+    "LGA": "Funakaye",
+    "State": "Gombe State"
+  },
+  {
+    "": 227,
+    "LGA": "Fune",
+    "State": "Yobe State"
+  },
+  {
+    "": 228,
+    "LGA": "Funtua",
+    "State": "Katsina State"
+  },
+  {
+    "": 229,
+    "LGA": "Gabasawa",
+    "State": "Kano State"
+  },
+  {
+    "": 230,
+    "LGA": "Gada",
+    "State": "Sokoto State"
+  },
+  {
+    "": 231,
+    "LGA": "Gagarawa",
+    "State": "Jigawa State"
+  },
+  {
+    "": 232,
+    "LGA": "Gamawa",
+    "State": "Bauchi State"
+  },
+  {
+    "": 233,
+    "LGA": "Ganjuwa",
+    "State": "Bauchi State"
+  },
+  {
+    "": 234,
+    "LGA": "Ganye",
+    "State": "Adamawa State"
+  },
+  {
+    "": 235,
+    "LGA": "Garki",
+    "State": "Jigawa State"
+  },
+  {
+    "": 236,
+    "LGA": "Garko",
+    "State": "Kano State"
+  },
+  {
+    "": 237,
+    "LGA": "Garun Mallam",
+    "State": "Kano State"
+  },
+  {
+    "": 238,
+    "LGA": "Gashaka",
+    "State": "Taraba State"
+  },
+  {
+    "": 239,
+    "LGA": "Gassol",
+    "State": "Taraba State"
+  },
+  {
+    "": 240,
+    "LGA": "Gaya",
+    "State": "Kano State"
+  },
+  {
+    "": 241,
+    "LGA": "Gayuk",
+    "State": "Adamawa State"
+  },
+  {
+    "": 242,
+    "LGA": "Gezawa",
+    "State": "Kano State"
+  },
+  {
+    "": 243,
+    "LGA": "Gbako",
+    "State": "Niger State"
+  },
+  {
+    "": 244,
+    "LGA": "Gboko",
+    "State": "Benue State"
+  },
+  {
+    "": 245,
+    "LGA": "Gbonyin",
+    "State": "Ekiti State"
+  },
+  {
+    "": 246,
+    "LGA": "Geidam",
+    "State": "Yobe State"
+  },
+  {
+    "": 247,
+    "LGA": "Giade",
+    "State": "Bauchi State"
+  },
+  {
+    "": 248,
+    "LGA": "Giwa",
+    "State": "Kaduna State"
+  },
+  {
+    "": 249,
+    "LGA": "Gokana",
+    "State": "Rivers State"
+  },
+  {
+    "": 250,
+    "LGA": "Gombe",
+    "State": "Gombe State"
+  },
+  {
+    "": 251,
+    "LGA": "Gombi",
+    "State": "Adamawa State"
+  },
+  {
+    "": 252,
+    "LGA": "Goronyo",
+    "State": "Sokoto State"
+  },
+  {
+    "": 253,
+    "LGA": "Grie",
+    "State": "Adamawa State"
+  },
+  {
+    "": 254,
+    "LGA": "Gubio",
+    "State": "Borno State"
+  },
+  {
+    "": 255,
+    "LGA": "Gudu",
+    "State": "Sokoto State"
+  },
+  {
+    "": 256,
+    "LGA": "Gujba",
+    "State": "Yobe State"
+  },
+  {
+    "": 257,
+    "LGA": "Gulani",
+    "State": "Yobe State"
+  },
+  {
+    "": 258,
+    "LGA": "Guma",
+    "State": "Benue State"
+  },
+  {
+    "": 259,
+    "LGA": "Gumel",
+    "State": "Jigawa State"
+  },
+  {
+    "": 260,
+    "LGA": "Gummi",
+    "State": "Zamfara State"
+  },
+  {
+    "": 261,
+    "LGA": "Gurara",
+    "State": "Niger State"
+  },
+  {
+    "": 262,
+    "LGA": "Guri",
+    "State": "Jigawa State"
+  },
+  {
+    "": 263,
+    "LGA": "Gusau",
+    "State": "Zamfara State"
+  },
+  {
+    "": 264,
+    "LGA": "Guzamala",
+    "State": "Borno State"
+  },
+  {
+    "": 265,
+    "LGA": "Gwadabawa",
+    "State": "Sokoto State"
+  },
+  {
+    "": 266,
+    "LGA": "Gwagwalada",
+    "State": "FCT"
+  },
+  {
+    "": 267,
+    "LGA": "Gwale",
+    "State": "Kano State"
+  },
+  {
+    "": 268,
+    "LGA": "Gwandu",
+    "State": "Kebbi State"
+  },
+  {
+    "": 269,
+    "LGA": "Gwaram",
+    "State": "Jigawa State"
+  },
+  {
+    "": 270,
+    "LGA": "Gwarzo",
+    "State": "Kano State"
+  },
+  {
+    "": 271,
+    "LGA": "Gwer East",
+    "State": "Benue State"
+  },
+  {
+    "": 272,
+    "LGA": "Gwer West",
+    "State": "Benue State"
+  },
+  {
+    "": 273,
+    "LGA": "Gwiwa",
+    "State": "Jigawa State"
+  },
+  {
+    "": 274,
+    "LGA": "Gwoza",
+    "State": "Borno State"
+  },
+  {
+    "": 275,
+    "LGA": "Hadejia",
+    "State": "Jigawa State"
+  },
+  {
+    "": 276,
+    "LGA": "Hawul",
+    "State": "Borno State"
+  },
+  {
+    "": 277,
+    "LGA": "Hong",
+    "State": "Adamawa State"
+  },
+  {
+    "": 278,
+    "LGA": "Ibadan North",
+    "State": "Oyo State"
+  },
+  {
+    "": 279,
+    "LGA": "Ibadan North-East",
+    "State": "Oyo State"
+  },
+  {
+    "": 280,
+    "LGA": "Ibadan North-West",
+    "State": "Oyo State"
+  },
+  {
+    "": 281,
+    "LGA": "Ibadan South-East",
+    "State": "Oyo State"
+  },
+  {
+    "": 282,
+    "LGA": "Ibadan South-West",
+    "State": "Oyo State"
+  },
+  {
+    "": 283,
+    "LGA": "Ibaji",
+    "State": "Kogi State"
+  },
+  {
+    "": 284,
+    "LGA": "Ibarapa Central",
+    "State": "Oyo State"
+  },
+  {
+    "": 285,
+    "LGA": "Ibarapa East",
+    "State": "Oyo State"
+  },
+  {
+    "": 286,
+    "LGA": "Ibarapa North",
+    "State": "Oyo State"
+  },
+  {
+    "": 287,
+    "LGA": "Ibeju-Lekki",
+    "State": "Lagos State"
+  },
+  {
+    "": 288,
+    "LGA": "Ibeno",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 289,
+    "LGA": "Ibesikpo Asutan",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 290,
+    "LGA": "Ibi",
+    "State": "Taraba State"
+  },
+  {
+    "": 291,
+    "LGA": "Ibiono-Ibom",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 292,
+    "LGA": "Idah",
+    "State": "Kogi State"
+  },
+  {
+    "": 293,
+    "LGA": "Idanre",
+    "State": "Ondo State"
+  },
+  {
+    "": 294,
+    "LGA": "Ideato North",
+    "State": "Imo State"
+  },
+  {
+    "": 295,
+    "LGA": "Ideato South",
+    "State": "Imo State"
+  },
+  {
+    "": 296,
+    "LGA": "Idemili North",
+    "State": "Anambra State"
+  },
+  {
+    "": 297,
+    "LGA": "Idemili South",
+    "State": "Anambra State"
+  },
+  {
+    "": 298,
+    "LGA": "Ido",
+    "State": "Oyo State"
+  },
+  {
+    "": 299,
+    "LGA": "Ido Osi",
+    "State": "Ekiti State"
+  },
+  {
+    "": 300,
+    "LGA": "Ifako-Ijaiye",
+    "State": "Lagos State"
+  },
+  {
+    "": 301,
+    "LGA": "Ifedayo",
+    "State": "Osun State"
+  },
+  {
+    "": 302,
+    "LGA": "Ifedore",
+    "State": "Ondo State"
+  },
+  {
+    "": 303,
+    "LGA": "Ifelodun",
+    "State": "Kwara State"
+  },
+  {
+    "": 304,
+    "LGA": "Ifelodun",
+    "State": "Osun State"
+  },
+  {
+    "": 305,
+    "LGA": "Ifo",
+    "State": "Ogun State"
+  },
+  {
+    "": 306,
+    "LGA": "Igabi",
+    "State": "Kaduna State"
+  },
+  {
+    "": 307,
+    "LGA": "Igalamela Odolu",
+    "State": "Kogi State"
+  },
+  {
+    "": 308,
+    "LGA": "Igbo Etiti",
+    "State": "Enugu State"
+  },
+  {
+    "": 309,
+    "LGA": "Igbo Eze North",
+    "State": "Enugu State"
+  },
+  {
+    "": 310,
+    "LGA": "Igbo Eze South",
+    "State": "Enugu State"
+  },
+  {
+    "": 311,
+    "LGA": "Igueben",
+    "State": "Edo State"
+  },
+  {
+    "": 312,
+    "LGA": "Ihiala",
+    "State": "Anambra State"
+  },
+  {
+    "": 313,
+    "LGA": "Ihitte/Uboma",
+    "State": "Imo State"
+  },
+  {
+    "": 314,
+    "LGA": "Ilaje",
+    "State": "Ondo State"
+  },
+  {
+    "": 315,
+    "LGA": "Ijebu East",
+    "State": "Ogun State"
+  },
+  {
+    "": 316,
+    "LGA": "Ijebu North",
+    "State": "Ogun State"
+  },
+  {
+    "": 317,
+    "LGA": "Ijebu North East",
+    "State": "Ogun State"
+  },
+  {
+    "": 318,
+    "LGA": "Ijebu Ode",
+    "State": "Ogun State"
+  },
+  {
+    "": 319,
+    "LGA": "Ijero",
+    "State": "Ekiti State"
+  },
+  {
+    "": 320,
+    "LGA": "Ijumu",
+    "State": "Kogi State"
+  },
+  {
+    "": 321,
+    "LGA": "Ika",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 322,
+    "LGA": "Ika North East",
+    "State": "Delta State"
+  },
+  {
+    "": 323,
+    "LGA": "Ikara",
+    "State": "Kaduna State"
+  },
+  {
+    "": 324,
+    "LGA": "Ika South",
+    "State": "Delta State"
+  },
+  {
+    "": 325,
+    "LGA": "Ikeduru",
+    "State": "Imo State"
+  },
+  {
+    "": 326,
+    "LGA": "Ikeja",
+    "State": "Lagos State"
+  },
+  {
+    "": 327,
+    "LGA": "Ikenne",
+    "State": "Ogun State"
+  },
+  {
+    "": 328,
+    "LGA": "Ikere",
+    "State": "Ekiti State"
+  },
+  {
+    "": 329,
+    "LGA": "Ikole",
+    "State": "Ekiti State"
+  },
+  {
+    "": 330,
+    "LGA": "Ikom",
+    "State": "Cross River State"
+  },
+  {
+    "": 331,
+    "LGA": "Ikono",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 332,
+    "LGA": "Ikorodu",
+    "State": "Lagos State"
+  },
+  {
+    "": 333,
+    "LGA": "Ikot Abasi",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 334,
+    "LGA": "Ikot Ekpene",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 335,
+    "LGA": "Ikpoba Okha",
+    "State": "Edo State"
+  },
+  {
+    "": 336,
+    "LGA": "Ikwerre",
+    "State": "Rivers State"
+  },
+  {
+    "": 337,
+    "LGA": "Ikwo",
+    "State": "Ebonyi State"
+  },
+  {
+    "": 338,
+    "LGA": "Ikwuano",
+    "State": "Abia State"
+  },
+  {
+    "": 339,
+    "LGA": "Ila",
+    "State": "Osun State"
+  },
+  {
+    "": 340,
+    "LGA": "Ilejemeje",
+    "State": "Ekiti State"
+  },
+  {
+    "": 341,
+    "LGA": "Ile Oluji/Okeigbo",
+    "State": "Ondo State"
+  },
+  {
+    "": 342,
+    "LGA": "Ilesa East",
+    "State": "Osun State"
+  },
+  {
+    "": 343,
+    "LGA": "Ilesa West",
+    "State": "Osun State"
+  },
+  {
+    "": 344,
+    "LGA": "Illela",
+    "State": "Sokoto State"
+  },
+  {
+    "": 345,
+    "LGA": "Ilorin East",
+    "State": "Kwara State"
+  },
+  {
+    "": 346,
+    "LGA": "Ilorin South",
+    "State": "Kwara State"
+  },
+  {
+    "": 347,
+    "LGA": "Ilorin West",
+    "State": "Kwara State"
+  },
+  {
+    "": 348,
+    "LGA": "Imeko Afon",
+    "State": "Ogun State"
+  },
+  {
+    "": 349,
+    "LGA": "Ingawa",
+    "State": "Katsina State"
+  },
+  {
+    "": 350,
+    "LGA": "Ini",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 351,
+    "LGA": "Ipokia",
+    "State": "Ogun State"
+  },
+  {
+    "": 352,
+    "LGA": "Irele",
+    "State": "Ondo State"
+  },
+  {
+    "": 353,
+    "LGA": "Irepo",
+    "State": "Oyo State"
+  },
+  {
+    "": 354,
+    "LGA": "Irepodun",
+    "State": "Kwara State"
+  },
+  {
+    "": 355,
+    "LGA": "Irepodun",
+    "State": "Osun State"
+  },
+  {
+    "": 356,
+    "LGA": "Irepodun/Ifelodun",
+    "State": "Ekiti State"
+  },
+  {
+    "": 357,
+    "LGA": "Irewole",
+    "State": "Osun State"
+  },
+  {
+    "": 358,
+    "LGA": "Isa",
+    "State": "Sokoto State"
+  },
+  {
+    "": 359,
+    "LGA": "Ise/Orun",
+    "State": "Ekiti State"
+  },
+  {
+    "": 360,
+    "LGA": "Iseyin",
+    "State": "Oyo State"
+  },
+  {
+    "": 361,
+    "LGA": "Ishielu",
+    "State": "Ebonyi State"
+  },
+  {
+    "": 362,
+    "LGA": "Isiala Mbano",
+    "State": "Imo State"
+  },
+  {
+    "": 363,
+    "LGA": "Isiala Ngwa North",
+    "State": "Abia State"
+  },
+  {
+    "": 364,
+    "LGA": "Isiala Ngwa South",
+    "State": "Abia State"
+  },
+  {
+    "": 365,
+    "LGA": "Isin",
+    "State": "Kwara State"
+  },
+  {
+    "": 366,
+    "LGA": "Isi Uzo",
+    "State": "Enugu State"
+  },
+  {
+    "": 367,
+    "LGA": "Isokan",
+    "State": "Osun State"
+  },
+  {
+    "": 368,
+    "LGA": "Isoko North",
+    "State": "Delta State"
+  },
+  {
+    "": 369,
+    "LGA": "Isoko South",
+    "State": "Delta State"
+  },
+  {
+    "": 370,
+    "LGA": "Isu",
+    "State": "Imo State"
+  },
+  {
+    "": 371,
+    "LGA": "Isuikwuato",
+    "State": "Abia State"
+  },
+  {
+    "": 372,
+    "LGA": "Itas/Gadau",
+    "State": "Bauchi State"
+  },
+  {
+    "": 373,
+    "LGA": "Itesiwaju",
+    "State": "Oyo State"
+  },
+  {
+    "": 374,
+    "LGA": "Itu",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 375,
+    "LGA": "Ivo",
+    "State": "Ebonyi State"
+  },
+  {
+    "": 376,
+    "LGA": "Iwajowa",
+    "State": "Oyo State"
+  },
+  {
+    "": 377,
+    "LGA": "Iwo",
+    "State": "Osun State"
+  },
+  {
+    "": 378,
+    "LGA": "Izzi",
+    "State": "Ebonyi State"
+  },
+  {
+    "": 379,
+    "LGA": "Jaba",
+    "State": "Kaduna State"
+  },
+  {
+    "": 380,
+    "LGA": "Jada",
+    "State": "Adamawa State"
+  },
+  {
+    "": 381,
+    "LGA": "Jahun",
+    "State": "Jigawa State"
+  },
+  {
+    "": 382,
+    "LGA": "Jakusko",
+    "State": "Yobe State"
+  },
+  {
+    "": 383,
+    "LGA": "Jalingo",
+    "State": "Taraba State"
+  },
+  {
+    "": 384,
+    "LGA": "Jama'are",
+    "State": "Bauchi State"
+  },
+  {
+    "": 385,
+    "LGA": "Jega",
+    "State": "Kebbi State"
+  },
+  {
+    "": 386,
+    "LGA": "Jema'a",
+    "State": "Kaduna State"
+  },
+  {
+    "": 387,
+    "LGA": "Jere",
+    "State": "Borno State"
+  },
+  {
+    "": 388,
+    "LGA": "Jibia",
+    "State": "Katsina State"
+  },
+  {
+    "": 389,
+    "LGA": "Jos East",
+    "State": "Plateau State"
+  },
+  {
+    "": 390,
+    "LGA": "Jos North",
+    "State": "Plateau State"
+  },
+  {
+    "": 391,
+    "LGA": "Jos South",
+    "State": "Plateau State"
+  },
+  {
+    "": 392,
+    "LGA": "Kabba/Bunu",
+    "State": "Kogi State"
+  },
+  {
+    "": 393,
+    "LGA": "Kabo",
+    "State": "Kano State"
+  },
+  {
+    "": 394,
+    "LGA": "Kachia",
+    "State": "Kaduna State"
+  },
+  {
+    "": 395,
+    "LGA": "Kaduna North",
+    "State": "Kaduna State"
+  },
+  {
+    "": 396,
+    "LGA": "Kaduna South",
+    "State": "Kaduna State"
+  },
+  {
+    "": 397,
+    "LGA": "Kafin Hausa",
+    "State": "Jigawa State"
+  },
+  {
+    "": 398,
+    "LGA": "Kafur",
+    "State": "Katsina State"
+  },
+  {
+    "": 399,
+    "LGA": "Kaga",
+    "State": "Borno State"
+  },
+  {
+    "": 400,
+    "LGA": "Kagarko",
+    "State": "Kaduna State"
+  },
+  {
+    "": 401,
+    "LGA": "Kaiama",
+    "State": "Kwara State"
+  },
+  {
+    "": 402,
+    "LGA": "Kaita",
+    "State": "Katsina State"
+  },
+  {
+    "": 403,
+    "LGA": "Kajola",
+    "State": "Oyo State"
+  },
+  {
+    "": 404,
+    "LGA": "Kajuru",
+    "State": "Kaduna State"
+  },
+  {
+    "": 405,
+    "LGA": "Kala/Balge",
+    "State": "Borno State"
+  },
+  {
+    "": 406,
+    "LGA": "Kalgo",
+    "State": "Kebbi State"
+  },
+  {
+    "": 407,
+    "LGA": "Kaltungo",
+    "State": "Gombe State"
+  },
+  {
+    "": 408,
+    "LGA": "Kanam",
+    "State": "Plateau State"
+  },
+  {
+    "": 409,
+    "LGA": "Kankara",
+    "State": "Katsina State"
+  },
+  {
+    "": 410,
+    "LGA": "Kanke",
+    "State": "Plateau State"
+  },
+  {
+    "": 411,
+    "LGA": "Kankia",
+    "State": "Katsina State"
+  },
+  {
+    "": 412,
+    "LGA": "Kano Municipal",
+    "State": "Kano State"
+  },
+  {
+    "": 413,
+    "LGA": "Karasuwa",
+    "State": "Yobe State"
+  },
+  {
+    "": 414,
+    "LGA": "Karaye",
+    "State": "Kano State"
+  },
+  {
+    "": 415,
+    "LGA": "Karim Lamido",
+    "State": "Taraba State"
+  },
+  {
+    "": 416,
+    "LGA": "Karu",
+    "State": "Nasarawa State"
+  },
+  {
+    "": 417,
+    "LGA": "Katagum",
+    "State": "Bauchi State"
+  },
+  {
+    "": 418,
+    "LGA": "Katcha",
+    "State": "Niger State"
+  },
+  {
+    "": 419,
+    "LGA": "Katsina",
+    "State": "Katsina State"
+  },
+  {
+    "": 420,
+    "LGA": "Katsina-Ala",
+    "State": "Benue State"
+  },
+  {
+    "": 421,
+    "LGA": "Kaura",
+    "State": "Kaduna State"
+  },
+  {
+    "": 422,
+    "LGA": "Kaura Namoda",
+    "State": "Zamfara State"
+  },
+  {
+    "": 423,
+    "LGA": "Kauru",
+    "State": "Kaduna State"
+  },
+  {
+    "": 424,
+    "LGA": "Kazaure",
+    "State": "Jigawa State"
+  },
+  {
+    "": 425,
+    "LGA": "Keana",
+    "State": "Nasarawa State"
+  },
+  {
+    "": 426,
+    "LGA": "Kebbe",
+    "State": "Sokoto State"
+  },
+  {
+    "": 427,
+    "LGA": "Keffi",
+    "State": "Nasarawa State"
+  },
+  {
+    "": 428,
+    "LGA": "Khana",
+    "State": "Rivers State"
+  },
+  {
+    "": 429,
+    "LGA": "Kibiya",
+    "State": "Kano State"
+  },
+  {
+    "": 430,
+    "LGA": "Kirfi",
+    "State": "Bauchi State"
+  },
+  {
+    "": 431,
+    "LGA": "Kiri Kasama",
+    "State": "Jigawa State"
+  },
+  {
+    "": 432,
+    "LGA": "Kiru",
+    "State": "Kano State"
+  },
+  {
+    "": 433,
+    "LGA": "Kiyawa",
+    "State": "Jigawa State"
+  },
+  {
+    "": 434,
+    "LGA": "Kogi",
+    "State": "Kogi State"
+  },
+  {
+    "": 435,
+    "LGA": "Koko/Besse",
+    "State": "Kebbi State"
+  },
+  {
+    "": 436,
+    "LGA": "Kokona",
+    "State": "Nasarawa State"
+  },
+  {
+    "": 437,
+    "LGA": "Kolokuma/Opokuma",
+    "State": "Bayelsa State"
+  },
+  {
+    "": 438,
+    "LGA": "Konduga",
+    "State": "Borno State"
+  },
+  {
+    "": 439,
+    "LGA": "Konshisha",
+    "State": "Benue State"
+  },
+  {
+    "": 440,
+    "LGA": "Kontagora",
+    "State": "Niger State"
+  },
+  {
+    "": 441,
+    "LGA": "Kosofe",
+    "State": "Lagos State"
+  },
+  {
+    "": 442,
+    "LGA": "Kaugama",
+    "State": "Jigawa State"
+  },
+  {
+    "": 443,
+    "LGA": "Kubau",
+    "State": "Kaduna State"
+  },
+  {
+    "": 444,
+    "LGA": "Kudan",
+    "State": "Kaduna State"
+  },
+  {
+    "": 445,
+    "LGA": "Kuje",
+    "State": "FCT"
+  },
+  {
+    "": 446,
+    "LGA": "Kukawa",
+    "State": "Borno State"
+  },
+  {
+    "": 447,
+    "LGA": "Kumbotso",
+    "State": "Kano State"
+  },
+  {
+    "": 448,
+    "LGA": "Kumi",
+    "State": "Taraba State"
+  },
+  {
+    "": 449,
+    "LGA": "Kunchi",
+    "State": "Kano State"
+  },
+  {
+    "": 450,
+    "LGA": "Kura",
+    "State": "Kano State"
+  },
+  {
+    "": 451,
+    "LGA": "Kurfi",
+    "State": "Katsina State"
+  },
+  {
+    "": 452,
+    "LGA": "Kusada",
+    "State": "Katsina State"
+  },
+  {
+    "": 453,
+    "LGA": "Kwali",
+    "State": "FCT"
+  },
+  {
+    "": 454,
+    "LGA": "Kwande",
+    "State": "Benue State"
+  },
+  {
+    "": 455,
+    "LGA": "Kwami",
+    "State": "Gombe State"
+  },
+  {
+    "": 456,
+    "LGA": "Kware",
+    "State": "Sokoto State"
+  },
+  {
+    "": 457,
+    "LGA": "Kwaya Kusar",
+    "State": "Borno State"
+  },
+  {
+    "": 458,
+    "LGA": "Lafia",
+    "State": "Nasarawa State"
+  },
+  {
+    "": 459,
+    "LGA": "Lagelu",
+    "State": "Oyo State"
+  },
+  {
+    "": 460,
+    "LGA": "Lagos Island",
+    "State": "Lagos State"
+  },
+  {
+    "": 461,
+    "LGA": "Lagos Mainland",
+    "State": "Lagos State"
+  },
+  {
+    "": 462,
+    "LGA": "Langtang South",
+    "State": "Plateau State"
+  },
+  {
+    "": 463,
+    "LGA": "Langtang North",
+    "State": "Plateau State"
+  },
+  {
+    "": 464,
+    "LGA": "Lapai",
+    "State": "Niger State"
+  },
+  {
+    "": 465,
+    "LGA": "Lamurde",
+    "State": "Adamawa State"
+  },
+  {
+    "": 466,
+    "LGA": "Lau",
+    "State": "Taraba State"
+  },
+  {
+    "": 467,
+    "LGA": "Lavun",
+    "State": "Niger State"
+  },
+  {
+    "": 468,
+    "LGA": "Lere",
+    "State": "Kaduna State"
+  },
+  {
+    "": 469,
+    "LGA": "Logo",
+    "State": "Benue State"
+  },
+  {
+    "": 470,
+    "LGA": "Lokoja",
+    "State": "Kogi State"
+  },
+  {
+    "": 471,
+    "LGA": "Machina",
+    "State": "Yobe State"
+  },
+  {
+    "": 472,
+    "LGA": "Madagali",
+    "State": "Adamawa State"
+  },
+  {
+    "": 473,
+    "LGA": "Madobi",
+    "State": "Kano State"
+  },
+  {
+    "": 474,
+    "LGA": "Mafa",
+    "State": "Borno State"
+  },
+  {
+    "": 475,
+    "LGA": "Magama",
+    "State": "Niger State"
+  },
+  {
+    "": 476,
+    "LGA": "Magumeri",
+    "State": "Borno State"
+  },
+  {
+    "": 477,
+    "LGA": "Mai'Adua",
+    "State": "Katsina State"
+  },
+  {
+    "": 478,
+    "LGA": "Maiduguri",
+    "State": "Borno State"
+  },
+  {
+    "": 479,
+    "LGA": "Maigatari",
+    "State": "Jigawa State"
+  },
+  {
+    "": 480,
+    "LGA": "Maiha",
+    "State": "Adamawa State"
+  },
+  {
+    "": 481,
+    "LGA": "Maiyama",
+    "State": "Kebbi State"
+  },
+  {
+    "": 482,
+    "LGA": "Makarfi",
+    "State": "Kaduna State"
+  },
+  {
+    "": 483,
+    "LGA": "Makoda",
+    "State": "Kano State"
+  },
+  {
+    "": 484,
+    "LGA": "Malam Madori",
+    "State": "Jigawa State"
+  },
+  {
+    "": 485,
+    "LGA": "Malumfashi",
+    "State": "Katsina State"
+  },
+  {
+    "": 486,
+    "LGA": "Mangu",
+    "State": "Plateau State"
+  },
+  {
+    "": 487,
+    "LGA": "Mani",
+    "State": "Katsina State"
+  },
+  {
+    "": 488,
+    "LGA": "Maradun",
+    "State": "Zamfara State"
+  },
+  {
+    "": 489,
+    "LGA": "Mariga",
+    "State": "Niger State"
+  },
+  {
+    "": 490,
+    "LGA": "Makurdi",
+    "State": "Benue State"
+  },
+  {
+    "": 491,
+    "LGA": "Marte",
+    "State": "Borno State"
+  },
+  {
+    "": 492,
+    "LGA": "Maru",
+    "State": "Zamfara State"
+  },
+  {
+    "": 493,
+    "LGA": "Mashegu",
+    "State": "Niger State"
+  },
+  {
+    "": 494,
+    "LGA": "Mashi",
+    "State": "Katsina State"
+  },
+  {
+    "": 495,
+    "LGA": "Matazu",
+    "State": "Katsina State"
+  },
+  {
+    "": 496,
+    "LGA": "Mayo Belwa",
+    "State": "Adamawa State"
+  },
+  {
+    "": 497,
+    "LGA": "Mbaitoli",
+    "State": "Imo State"
+  },
+  {
+    "": 498,
+    "LGA": "Mbo",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 499,
+    "LGA": "Michika",
+    "State": "Adamawa State"
+  },
+  {
+    "": 500,
+    "LGA": "Miga",
+    "State": "Jigawa State"
+  },
+  {
+    "": 501,
+    "LGA": "Mikang",
+    "State": "Plateau State"
+  },
+  {
+    "": 502,
+    "LGA": "Minjibir",
+    "State": "Kano State"
+  },
+  {
+    "": 503,
+    "LGA": "Misau",
+    "State": "Bauchi State"
+  },
+  {
+    "": 504,
+    "LGA": "Moba",
+    "State": "Ekiti State"
+  },
+  {
+    "": 505,
+    "LGA": "Mobbar",
+    "State": "Borno State"
+  },
+  {
+    "": 506,
+    "LGA": "Mubi North",
+    "State": "Adamawa State"
+  },
+  {
+    "": 507,
+    "LGA": "Mubi South",
+    "State": "Adamawa State"
+  },
+  {
+    "": 508,
+    "LGA": "Mokwa",
+    "State": "Niger State"
+  },
+  {
+    "": 509,
+    "LGA": "Monguno",
+    "State": "Borno State"
+  },
+  {
+    "": 510,
+    "LGA": "Mopa Muro",
+    "State": "Kogi State"
+  },
+  {
+    "": 511,
+    "LGA": "Moro",
+    "State": "Kwara State"
+  },
+  {
+    "": 512,
+    "LGA": "Moya",
+    "State": "Niger State"
+  },
+  {
+    "": 513,
+    "LGA": "Mkpat-Enin",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 514,
+    "LGA": "Musawa",
+    "State": "Katsina State"
+  },
+  {
+    "": 515,
+    "LGA": "Mushin",
+    "State": "Lagos State"
+  },
+  {
+    "": 516,
+    "LGA": "Nafada",
+    "State": "Gombe State"
+  },
+  {
+    "": 517,
+    "LGA": "Nangere",
+    "State": "Yobe State"
+  },
+  {
+    "": 518,
+    "LGA": "Nasarawa",
+    "State": "Kano State"
+  },
+  {
+    "": 519,
+    "LGA": "Nasarawa",
+    "State": "Nasarawa State"
+  },
+  {
+    "": 520,
+    "LGA": "Nasarawa Egon",
+    "State": "Nasarawa State"
+  },
+  {
+    "": 521,
+    "LGA": "Ndokwa East",
+    "State": "Delta State"
+  },
+  {
+    "": 522,
+    "LGA": "Ndokwa West",
+    "State": "Delta State"
+  },
+  {
+    "": 523,
+    "LGA": "Nembe",
+    "State": "Bayelsa State"
+  },
+  {
+    "": 524,
+    "LGA": "Ngala",
+    "State": "Borno State"
+  },
+  {
+    "": 525,
+    "LGA": "Nganzai",
+    "State": "Borno State"
+  },
+  {
+    "": 526,
+    "LGA": "Ngaski",
+    "State": "Kebbi State"
+  },
+  {
+    "": 527,
+    "LGA": "Ngor Okpala",
+    "State": "Imo State"
+  },
+  {
+    "": 528,
+    "LGA": "Nguru",
+    "State": "Yobe State"
+  },
+  {
+    "": 529,
+    "LGA": "Ningi",
+    "State": "Bauchi State"
+  },
+  {
+    "": 530,
+    "LGA": "Njaba",
+    "State": "Imo State"
+  },
+  {
+    "": 531,
+    "LGA": "Njikoka",
+    "State": "Anambra State"
+  },
+  {
+    "": 532,
+    "LGA": "Nkanu East",
+    "State": "Enugu State"
+  },
+  {
+    "": 533,
+    "LGA": "Nkanu West",
+    "State": "Enugu State"
+  },
+  {
+    "": 534,
+    "LGA": "Nkwerre",
+    "State": "Imo State"
+  },
+  {
+    "": 535,
+    "LGA": "Nnewi North",
+    "State": "Anambra State"
+  },
+  {
+    "": 536,
+    "LGA": "Nnewi South",
+    "State": "Anambra State"
+  },
+  {
+    "": 537,
+    "LGA": "Nsit-Atai",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 538,
+    "LGA": "Nsit-Ibom",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 539,
+    "LGA": "Nsit-Ubium",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 540,
+    "LGA": "Nsukka",
+    "State": "Enugu State"
+  },
+  {
+    "": 541,
+    "LGA": "Numan",
+    "State": "Adamawa State"
+  },
+  {
+    "": 542,
+    "LGA": "Nwangele",
+    "State": "Imo State"
+  },
+  {
+    "": 543,
+    "LGA": "Obafemi Owode",
+    "State": "Ogun State"
+  },
+  {
+    "": 544,
+    "LGA": "Obanliku",
+    "State": "Cross River State"
+  },
+  {
+    "": 545,
+    "LGA": "Obi",
+    "State": "Benue State"
+  },
+  {
+    "": 546,
+    "LGA": "Obi",
+    "State": "Nasarawa State"
+  },
+  {
+    "": 547,
+    "LGA": "Obi Ngwa",
+    "State": "Abia State"
+  },
+  {
+    "": 548,
+    "LGA": "Obio/Akpor",
+    "State": "Rivers State"
+  },
+  {
+    "": 549,
+    "LGA": "Obokun",
+    "State": "Osun State"
+  },
+  {
+    "": 550,
+    "LGA": "Obot Akara",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 551,
+    "LGA": "Obowo",
+    "State": "Imo State"
+  },
+  {
+    "": 552,
+    "LGA": "Obubra",
+    "State": "Cross River State"
+  },
+  {
+    "": 553,
+    "LGA": "Obudu",
+    "State": "Cross River State"
+  },
+  {
+    "": 554,
+    "LGA": "Odeda",
+    "State": "Ogun State"
+  },
+  {
+    "": 555,
+    "LGA": "Odigbo",
+    "State": "Ondo State"
+  },
+  {
+    "": 556,
+    "LGA": "Odogbolu",
+    "State": "Ogun State"
+  },
+  {
+    "": 557,
+    "LGA": "Odo Otin",
+    "State": "Osun State"
+  },
+  {
+    "": 558,
+    "LGA": "Odukpani",
+    "State": "Cross River State"
+  },
+  {
+    "": 559,
+    "LGA": "Offa",
+    "State": "Kwara State"
+  },
+  {
+    "": 560,
+    "LGA": "Ofu",
+    "State": "Kogi State"
+  },
+  {
+    "": 561,
+    "LGA": "Ogba/Egbema/Ndoni",
+    "State": "Rivers State"
+  },
+  {
+    "": 562,
+    "LGA": "Ogbadibo",
+    "State": "Benue State"
+  },
+  {
+    "": 563,
+    "LGA": "Ogbaru",
+    "State": "Anambra State"
+  },
+  {
+    "": 564,
+    "LGA": "Ogbia",
+    "State": "Bayelsa State"
+  },
+  {
+    "": 565,
+    "LGA": "Ogbomosho North",
+    "State": "Oyo State"
+  },
+  {
+    "": 566,
+    "LGA": "Ogbomosho South",
+    "State": "Oyo State"
+  },
+  {
+    "": 567,
+    "LGA": "Ogu/Bolo",
+    "State": "Rivers State"
+  },
+  {
+    "": 568,
+    "LGA": "Ogoja",
+    "State": "Cross River State"
+  },
+  {
+    "": 569,
+    "LGA": "Ogo Oluwa",
+    "State": "Oyo State"
+  },
+  {
+    "": 570,
+    "LGA": "Ogori/Magongo",
+    "State": "Kogi State"
+  },
+  {
+    "": 571,
+    "LGA": "Ogun Waterside",
+    "State": "Ogun State"
+  },
+  {
+    "": 572,
+    "LGA": "Oguta",
+    "State": "Imo State"
+  },
+  {
+    "": 573,
+    "LGA": "Ohafia",
+    "State": "Abia State"
+  },
+  {
+    "": 574,
+    "LGA": "Ohaji/Egbema",
+    "State": "Imo State"
+  },
+  {
+    "": 575,
+    "LGA": "Ohaozara",
+    "State": "Ebonyi State"
+  },
+  {
+    "": 576,
+    "LGA": "Ohaukwu",
+    "State": "Ebonyi State"
+  },
+  {
+    "": 577,
+    "LGA": "Ohimini",
+    "State": "Benue State"
+  },
+  {
+    "": 578,
+    "LGA": "Orhionmwon",
+    "State": "Edo State"
+  },
+  {
+    "": 579,
+    "LGA": "Oji River",
+    "State": "Enugu State"
+  },
+  {
+    "": 580,
+    "LGA": "Ojo",
+    "State": "Lagos State"
+  },
+  {
+    "": 581,
+    "LGA": "Oju",
+    "State": "Benue State"
+  },
+  {
+    "": 582,
+    "LGA": "Okehi",
+    "State": "Kogi State"
+  },
+  {
+    "": 583,
+    "LGA": "Okene",
+    "State": "Kogi State"
+  },
+  {
+    "": 584,
+    "LGA": "Oke Ero",
+    "State": "Kwara State"
+  },
+  {
+    "": 585,
+    "LGA": "Okigwe",
+    "State": "Imo State"
+  },
+  {
+    "": 586,
+    "LGA": "Okitipupa",
+    "State": "Ondo State"
+  },
+  {
+    "": 587,
+    "LGA": "Okobo",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 588,
+    "LGA": "Okpe",
+    "State": "Delta State"
+  },
+  {
+    "": 589,
+    "LGA": "Okrika",
+    "State": "Rivers State"
+  },
+  {
+    "": 590,
+    "LGA": "Olamaboro",
+    "State": "Kogi State"
+  },
+  {
+    "": 591,
+    "LGA": "Ola Oluwa",
+    "State": "Osun State"
+  },
+  {
+    "": 592,
+    "LGA": "Olorunda",
+    "State": "Osun State"
+  },
+  {
+    "": 593,
+    "LGA": "Olorunsogo",
+    "State": "Oyo State"
+  },
+  {
+    "": 594,
+    "LGA": "Oluyole",
+    "State": "Oyo State"
+  },
+  {
+    "": 595,
+    "LGA": "Omala",
+    "State": "Kogi State"
+  },
+  {
+    "": 596,
+    "LGA": "Omuma",
+    "State": "Rivers State"
+  },
+  {
+    "": 597,
+    "LGA": "Ona Ara",
+    "State": "Oyo State"
+  },
+  {
+    "": 598,
+    "LGA": "Ondo East",
+    "State": "Ondo State"
+  },
+  {
+    "": 599,
+    "LGA": "Ondo West",
+    "State": "Ondo State"
+  },
+  {
+    "": 600,
+    "LGA": "Onicha",
+    "State": "Ebonyi State"
+  },
+  {
+    "": 601,
+    "LGA": "Onitsha North",
+    "State": "Anambra State"
+  },
+  {
+    "": 602,
+    "LGA": "Onitsha South",
+    "State": "Anambra State"
+  },
+  {
+    "": 603,
+    "LGA": "Onna",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 604,
+    "LGA": "Okpokwu",
+    "State": "Benue State"
+  },
+  {
+    "": 605,
+    "LGA": "Opobo/Nkoro",
+    "State": "Rivers State"
+  },
+  {
+    "": 606,
+    "LGA": "Oredo",
+    "State": "Edo State"
+  },
+  {
+    "": 607,
+    "LGA": "Orelope",
+    "State": "Oyo State"
+  },
+  {
+    "": 608,
+    "LGA": "Oriade",
+    "State": "Osun State"
+  },
+  {
+    "": 609,
+    "LGA": "Ori Ire",
+    "State": "Oyo State"
+  },
+  {
+    "": 610,
+    "LGA": "Orlu",
+    "State": "Imo State"
+  },
+  {
+    "": 611,
+    "LGA": "Orolu",
+    "State": "Osun State"
+  },
+  {
+    "": 612,
+    "LGA": "Oron",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 613,
+    "LGA": "Orsu",
+    "State": "Imo State"
+  },
+  {
+    "": 614,
+    "LGA": "Oru East",
+    "State": "Imo State"
+  },
+  {
+    "": 615,
+    "LGA": "Oruk Anam",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 616,
+    "LGA": "Orumba North",
+    "State": "Anambra State"
+  },
+  {
+    "": 617,
+    "LGA": "Orumba South",
+    "State": "Anambra State"
+  },
+  {
+    "": 618,
+    "LGA": "Oru West",
+    "State": "Imo State"
+  },
+  {
+    "": 619,
+    "LGA": "Ose",
+    "State": "Ondo State"
+  },
+  {
+    "": 620,
+    "LGA": "Oshimili North",
+    "State": "Delta State"
+  },
+  {
+    "": 621,
+    "LGA": "Oshimili South",
+    "State": "Delta State"
+  },
+  {
+    "": 622,
+    "LGA": "Oshodi-Isolo",
+    "State": "Lagos State"
+  },
+  {
+    "": 623,
+    "LGA": "Osisioma",
+    "State": "Abia State"
+  },
+  {
+    "": 624,
+    "LGA": "Osogbo",
+    "State": "Osun State"
+  },
+  {
+    "": 625,
+    "LGA": "Oturkpo",
+    "State": "Benue State"
+  },
+  {
+    "": 626,
+    "LGA": "Ovia North-East",
+    "State": "Edo State"
+  },
+  {
+    "": 627,
+    "LGA": "Ovia South-West",
+    "State": "Edo State"
+  },
+  {
+    "": 628,
+    "LGA": "Owan East",
+    "State": "Edo State"
+  },
+  {
+    "": 629,
+    "LGA": "Owan West",
+    "State": "Edo State"
+  },
+  {
+    "": 630,
+    "LGA": "Owerri Municipal",
+    "State": "Imo State"
+  },
+  {
+    "": 631,
+    "LGA": "Owerri North",
+    "State": "Imo State"
+  },
+  {
+    "": 632,
+    "LGA": "Owerri West",
+    "State": "Imo State"
+  },
+  {
+    "": 633,
+    "LGA": "Owo",
+    "State": "Ondo State"
+  },
+  {
+    "": 634,
+    "LGA": "Oye",
+    "State": "Ekiti State"
+  },
+  {
+    "": 635,
+    "LGA": "Oyi",
+    "State": "Anambra State"
+  },
+  {
+    "": 636,
+    "LGA": "Oyigbo",
+    "State": "Rivers State"
+  },
+  {
+    "": 637,
+    "LGA": "Oyo West",
+    "State": "Oyo State"
+  },
+  {
+    "": 638,
+    "LGA": "Oyo East",
+    "State": "Oyo State"
+  },
+  {
+    "": 639,
+    "LGA": "Oyun",
+    "State": "Kwara State"
+  },
+  {
+    "": 640,
+    "LGA": "Paikoro",
+    "State": "Niger State"
+  },
+  {
+    "": 641,
+    "LGA": "Pankshin",
+    "State": "Plateau State"
+  },
+  {
+    "": 642,
+    "LGA": "Patani",
+    "State": "Delta State"
+  },
+  {
+    "": 643,
+    "LGA": "Pategi",
+    "State": "Kwara State"
+  },
+  {
+    "": 644,
+    "LGA": "Port Harcourt",
+    "State": "Rivers State"
+  },
+  {
+    "": 645,
+    "LGA": "Potiskum",
+    "State": "Yobe State"
+  },
+  {
+    "": 646,
+    "LGA": "Qua'an Pan",
+    "State": "Plateau State"
+  },
+  {
+    "": 647,
+    "LGA": "Rabah",
+    "State": "Sokoto State"
+  },
+  {
+    "": 648,
+    "LGA": "Rafi",
+    "State": "Niger State"
+  },
+  {
+    "": 649,
+    "LGA": "Rano",
+    "State": "Kano State"
+  },
+  {
+    "": 650,
+    "LGA": "Remo North",
+    "State": "Ogun State"
+  },
+  {
+    "": 651,
+    "LGA": "Rijau",
+    "State": "Niger State"
+  },
+  {
+    "": 652,
+    "LGA": "Rimi",
+    "State": "Katsina State"
+  },
+  {
+    "": 653,
+    "LGA": "Rimin Gado",
+    "State": "Kano State"
+  },
+  {
+    "": 654,
+    "LGA": "Ringim",
+    "State": "Jigawa State"
+  },
+  {
+    "": 655,
+    "LGA": "Riyom",
+    "State": "Plateau State"
+  },
+  {
+    "": 656,
+    "LGA": "Rogo",
+    "State": "Kano State"
+  },
+  {
+    "": 657,
+    "LGA": "Roni",
+    "State": "Jigawa State"
+  },
+  {
+    "": 658,
+    "LGA": "Sabon Birni",
+    "State": "Sokoto State"
+  },
+  {
+    "": 659,
+    "LGA": "Sabon Gari",
+    "State": "Kaduna State"
+  },
+  {
+    "": 660,
+    "LGA": "Sabuwa",
+    "State": "Katsina State"
+  },
+  {
+    "": 661,
+    "LGA": "Safana",
+    "State": "Katsina State"
+  },
+  {
+    "": 662,
+    "LGA": "Sagbama",
+    "State": "Bayelsa State"
+  },
+  {
+    "": 663,
+    "LGA": "Sakaba",
+    "State": "Kebbi State"
+  },
+  {
+    "": 664,
+    "LGA": "Saki East",
+    "State": "Oyo State"
+  },
+  {
+    "": 665,
+    "LGA": "Saki West",
+    "State": "Oyo State"
+  },
+  {
+    "": 666,
+    "LGA": "Sandamu",
+    "State": "Katsina State"
+  },
+  {
+    "": 667,
+    "LGA": "Sanga",
+    "State": "Kaduna State"
+  },
+  {
+    "": 668,
+    "LGA": "Sapele",
+    "State": "Delta State"
+  },
+  {
+    "": 669,
+    "LGA": "Sardauna",
+    "State": "Taraba State"
+  },
+  {
+    "": 670,
+    "LGA": "Shagamu",
+    "State": "Ogun State"
+  },
+  {
+    "": 671,
+    "LGA": "Shagari",
+    "State": "Sokoto State"
+  },
+  {
+    "": 672,
+    "LGA": "Shanga",
+    "State": "Kebbi State"
+  },
+  {
+    "": 673,
+    "LGA": "Shani",
+    "State": "Borno State"
+  },
+  {
+    "": 674,
+    "LGA": "Shanono",
+    "State": "Kano State"
+  },
+  {
+    "": 675,
+    "LGA": "Shelleng",
+    "State": "Adamawa State"
+  },
+  {
+    "": 676,
+    "LGA": "Shendam",
+    "State": "Plateau State"
+  },
+  {
+    "": 677,
+    "LGA": "Shinkafi",
+    "State": "Zamfara State"
+  },
+  {
+    "": 678,
+    "LGA": "Shira",
+    "State": "Bauchi State"
+  },
+  {
+    "": 679,
+    "LGA": "Shiroro",
+    "State": "Niger State"
+  },
+  {
+    "": 680,
+    "LGA": "Shongom",
+    "State": "Gombe State"
+  },
+  {
+    "": 681,
+    "LGA": "Shomolu",
+    "State": "Lagos State"
+  },
+  {
+    "": 682,
+    "LGA": "Silame",
+    "State": "Sokoto State"
+  },
+  {
+    "": 683,
+    "LGA": "Soba",
+    "State": "Kaduna State"
+  },
+  {
+    "": 684,
+    "LGA": "Sokoto North",
+    "State": "Sokoto State"
+  },
+  {
+    "": 685,
+    "LGA": "Sokoto South",
+    "State": "Sokoto State"
+  },
+  {
+    "": 686,
+    "LGA": "Song",
+    "State": "Adamawa State"
+  },
+  {
+    "": 687,
+    "LGA": "Southern Ijaw",
+    "State": "Bayelsa State"
+  },
+  {
+    "": 688,
+    "LGA": "Suleja",
+    "State": "Niger State"
+  },
+  {
+    "": 689,
+    "LGA": "Sule Tankarkar",
+    "State": "Jigawa State"
+  },
+  {
+    "": 690,
+    "LGA": "Sumaila",
+    "State": "Kano State"
+  },
+  {
+    "": 691,
+    "LGA": "Suru",
+    "State": "Kebbi State"
+  },
+  {
+    "": 692,
+    "LGA": "Surulere",
+    "State": "Oyo State"
+  },
+  {
+    "": 693,
+    "LGA": "Surulere",
+    "State": "Lagos State"
+  },
+  {
+    "": 694,
+    "LGA": "Tafa",
+    "State": "Niger State"
+  },
+  {
+    "": 695,
+    "LGA": "Tafawa Balewa",
+    "State": "Bauchi State"
+  },
+  {
+    "": 696,
+    "LGA": "Tai",
+    "State": "Rivers State"
+  },
+  {
+    "": 697,
+    "LGA": "Takai",
+    "State": "Kano State"
+  },
+  {
+    "": 698,
+    "LGA": "Takum",
+    "State": "Taraba State"
+  },
+  {
+    "": 699,
+    "LGA": "Talata Mafara",
+    "State": "Zamfara State"
+  },
+  {
+    "": 700,
+    "LGA": "Tambuwal",
+    "State": "Sokoto State"
+  },
+  {
+    "": 701,
+    "LGA": "Tangaza",
+    "State": "Sokoto State"
+  },
+  {
+    "": 702,
+    "LGA": "Tarauni",
+    "State": "Kano State"
+  },
+  {
+    "": 703,
+    "LGA": "Tarka",
+    "State": "Benue State"
+  },
+  {
+    "": 704,
+    "LGA": "Tarmuwa",
+    "State": "Yobe State"
+  },
+  {
+    "": 705,
+    "LGA": "Taura",
+    "State": "Jigawa State"
+  },
+  {
+    "": 706,
+    "LGA": "Toungo",
+    "State": "Adamawa State"
+  },
+  {
+    "": 707,
+    "LGA": "Tofa",
+    "State": "Kano State"
+  },
+  {
+    "": 708,
+    "LGA": "Toro",
+    "State": "Bauchi State"
+  },
+  {
+    "": 709,
+    "LGA": "Toto",
+    "State": "Nasarawa State"
+  },
+  {
+    "": 710,
+    "LGA": "Chafe",
+    "State": "Zamfara State"
+  },
+  {
+    "": 711,
+    "LGA": "Tsanyawa",
+    "State": "Kano State"
+  },
+  {
+    "": 712,
+    "LGA": "Tudun Wada",
+    "State": "Kano State"
+  },
+  {
+    "": 713,
+    "LGA": "Tureta",
+    "State": "Sokoto State"
+  },
+  {
+    "": 714,
+    "LGA": "Udenu",
+    "State": "Enugu State"
+  },
+  {
+    "": 715,
+    "LGA": "Udi",
+    "State": "Enugu State"
+  },
+  {
+    "": 716,
+    "LGA": "Udu",
+    "State": "Delta State"
+  },
+  {
+    "": 717,
+    "LGA": "Udung-Uko",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 718,
+    "LGA": "Ughelli North",
+    "State": "Delta State"
+  },
+  {
+    "": 719,
+    "LGA": "Ughelli South",
+    "State": "Delta State"
+  },
+  {
+    "": 720,
+    "LGA": "Ugwunagbo",
+    "State": "Abia State"
+  },
+  {
+    "": 721,
+    "LGA": "Uhunmwonde",
+    "State": "Edo State"
+  },
+  {
+    "": 722,
+    "LGA": "Ukanafun",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 723,
+    "LGA": "Ukum",
+    "State": "Benue State"
+  },
+  {
+    "": 724,
+    "LGA": "Ukwa East",
+    "State": "Abia State"
+  },
+  {
+    "": 725,
+    "LGA": "Ukwa West",
+    "State": "Abia State"
+  },
+  {
+    "": 726,
+    "LGA": "Ukwuani",
+    "State": "Delta State"
+  },
+  {
+    "": 727,
+    "LGA": "Umuahia North",
+    "State": "Abia State"
+  },
+  {
+    "": 728,
+    "LGA": "Umuahia South",
+    "State": "Abia State"
+  },
+  {
+    "": 729,
+    "LGA": "Umu Nneochi",
+    "State": "Abia State"
+  },
+  {
+    "": 730,
+    "LGA": "Ungogo",
+    "State": "Kano State"
+  },
+  {
+    "": 731,
+    "LGA": "Unuimo",
+    "State": "Imo State"
+  },
+  {
+    "": 732,
+    "LGA": "Uruan",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 733,
+    "LGA": "Urue-Offong/Oruko",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 734,
+    "LGA": "Ushongo",
+    "State": "Benue State"
+  },
+  {
+    "": 735,
+    "LGA": "Ussa",
+    "State": "Taraba State"
+  },
+  {
+    "": 736,
+    "LGA": "Uvwie",
+    "State": "Delta State"
+  },
+  {
+    "": 737,
+    "LGA": "Uyo",
+    "State": "Akwa Ibom State"
+  },
+  {
+    "": 738,
+    "LGA": "Uzo-Uwani",
+    "State": "Enugu State"
+  },
+  {
+    "": 739,
+    "LGA": "Vandeikya",
+    "State": "Benue State"
+  },
+  {
+    "": 740,
+    "LGA": "Wamako",
+    "State": "Sokoto State"
+  },
+  {
+    "": 741,
+    "LGA": "Wamba",
+    "State": "Nasarawa State"
+  },
+  {
+    "": 742,
+    "LGA": "Warawa",
+    "State": "Kano State"
+  },
+  {
+    "": 743,
+    "LGA": "Warji",
+    "State": "Bauchi State"
+  },
+  {
+    "": 744,
+    "LGA": "Warri North",
+    "State": "Delta State"
+  },
+  {
+    "": 745,
+    "LGA": "Warri South",
+    "State": "Delta State"
+  },
+  {
+    "": 746,
+    "LGA": "Warri South West",
+    "State": "Delta State"
+  },
+  {
+    "": 747,
+    "LGA": "Wasagu/Danko",
+    "State": "Kebbi State"
+  },
+  {
+    "": 748,
+    "LGA": "Wase",
+    "State": "Plateau State"
+  },
+  {
+    "": 749,
+    "LGA": "Wudil",
+    "State": "Kano State"
+  },
+  {
+    "": 750,
+    "LGA": "Wukari",
+    "State": "Taraba State"
+  },
+  {
+    "": 751,
+    "LGA": "Wurno",
+    "State": "Sokoto State"
+  },
+  {
+    "": 752,
+    "LGA": "Wushishi",
+    "State": "Niger State"
+  },
+  {
+    "": 753,
+    "LGA": "Yabo",
+    "State": "Sokoto State"
+  },
+  {
+    "": 754,
+    "LGA": "Yagba East",
+    "State": "Kogi State"
+  },
+  {
+    "": 755,
+    "LGA": "Yagba West",
+    "State": "Kogi State"
+  },
+  {
+    "": 756,
+    "LGA": "Yakuur",
+    "State": "Cross River State"
+  },
+  {
+    "": 757,
+    "LGA": "Yala",
+    "State": "Cross River State"
+  },
+  {
+    "": 758,
+    "LGA": "Yamaltu/Deba",
+    "State": "Gombe State"
+  },
+  {
+    "": 759,
+    "LGA": "Yankwashi",
+    "State": "Jigawa State"
+  },
+  {
+    "": 760,
+    "LGA": "Yauri",
+    "State": "Kebbi State"
+  },
+  {
+    "": 761,
+    "LGA": "Yenagoa",
+    "State": "Bayelsa State"
+  },
+  {
+    "": 762,
+    "LGA": "Yola North",
+    "State": "Adamawa State"
+  },
+  {
+    "": 763,
+    "LGA": "Yola South",
+    "State": "Adamawa State"
+  },
+  {
+    "": 764,
+    "LGA": "Yorro",
+    "State": "Taraba State"
+  },
+  {
+    "": 765,
+    "LGA": "Yunusari",
+    "State": "Yobe State"
+  },
+  {
+    "": 766,
+    "LGA": "Yusufari",
+    "State": "Yobe State"
+  },
+  {
+    "": 767,
+    "LGA": "Zaki",
+    "State": "Bauchi State"
+  },
+  {
+    "": 768,
+    "LGA": "Zango",
+    "State": "Katsina State"
+  },
+  {
+    "": 769,
+    "LGA": "Zangon Kataf",
+    "State": "Kaduna State"
+  },
+  {
+    "": 770,
+    "LGA": "Zaria",
+    "State": "Kaduna State"
+  },
+  {
+    "": 771,
+    "LGA": "Zing",
+    "State": "Taraba State"
+  },
+  {
+    "": 772,
+    "LGA": "Zurmi",
+    "State": "Zamfara State"
+  },
+  {
+    "": 773,
+    "LGA": "Zuru",
+    "State": "Kebbi State"
+  }
+]

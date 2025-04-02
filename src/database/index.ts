@@ -1,6 +1,5 @@
 /* eslint-disable no-underscore-dangle */
 import { Pool, QueryResult } from 'pg';
-import * as path from 'path';
 import * as dotenv from 'dotenv';
 import get from 'lodash/get';
 import camelCase from 'lodash/camelCase';
