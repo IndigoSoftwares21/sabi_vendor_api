@@ -1,0 +1,52 @@
+name: Deploy to Ngrok on development push
+
+on:
+  push:
+    branches:
+      - development
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the code from GitHub
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Step 2: Set up Node.js (Make sure to use the version that fits your project)
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # Step 4: Build the project (TypeScript)
+      - name: Build TypeScript project
+        run: npm run build
+
+      # Step 5: Restart Docker containers (optional, depends on your setup)
+      - name: Restart Docker containers
+        run: |
+          docker-compose down -v
+          docker-compose up --build -d
+
+      # Step 6: Start ngrok with a custom domain (replace with your ngrok hostname if using ngrok paid plan)
+      - name: Start ngrok with custom domain
+        run: |
+          ngrok authtoken ${{ secrets.NGROK_AUTH_TOKEN }}
+          nohup ngrok http -hostname=literate-sharply-tetra.ngrok-free.app 3000 &  # Port 3000 or your app's port
+
+      # Step 7: Capture ngrok URL
+      - name: Capture ngrok URL
+        run: |
+          ngrok_url=$(curl -s http://localhost:4040/api/tunnels | jq -r '.tunnels[0].public_url')
+          echo "The current ngrok URL is $ngrok_url"
+          echo "NGROK_URL=$ngrok_url" >> $GITHUB_ENV  # Store the ngrok URL for further use
+    # Step 8: Optionally notify with the ngrok URL
+      - name: Notify with ngrok URL
+        run: |
+          curl -X POST -d "url=${{ env.NGROK_URL }}" https://api.notification-service.com/send  # Example service
