@@ -9,6 +9,7 @@
         "test": "jest",
         "fresh": "docker-compose down -v && docker-compose up --build -d && echo '🚀 Docker containers are running in the background!' && ts-node-dev --respawn --transpile-only --require tsconfig-paths/register src/app.ts",
         "dev": "docker-compose up -d && echo '🚀 Docker is running in the background!' && ts-node-dev --respawn --transpile-only --require tsconfig-paths/register src/app.ts",
+        "server": "docker-compose up -d && echo '🚀 Docker is running in the background!' && ts-node-dev --respawn --transpile-only --require tsconfig-paths/register src/app.ts ngrok 3000",
         "docker:logs": "docker-compose logs -f --tail=50",
         "lint": "eslint \"src/**/*.ts\"",
         "prepare": "husky install",
